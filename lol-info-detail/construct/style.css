@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    top: 0;
+    font-family: "Microsoft Yahei";
+    color: #fff;
+}
+h1,h2,{
+    margin:0;
+    padding: 0;
+}
+body {
+    background: url("banner.jpg") no-repeat center top;
+    text-align: center;
+}
+.mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.2;
+    /*background: rgba(0,0,0,0.7);*/
+}
+.box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0px;
+    text-align: center;
+    z-index: 100;
+}
+
+h1 {
+    font:normal 400 50px/80px "Microsoft Yahei";
+    color: #fff;
+    margin-top: 30px;
+}
+h2 {
+    margin-top:20px;
+    font:normal 400 30px/40px "Microsoft Yahei";
+    color: #fff;
+}
+
+.progress {
+    width: 500px;
+    height: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.progresBar {
+    width: 2px;
+    height: 20px;
+    background-color: #00bb9c;
+}
+.progresBar span{
+    display: none;
+    margin-left: 155px;
+}
+.box img {
+    width: 102px;
+    height: 100px;
+    opacity: 0.3;
+    margin: 20px 0;
+}
+.box .goBack {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #00bb9c;
+    margin: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}

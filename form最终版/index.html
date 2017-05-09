@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="icon" href="../favicon.ico"/>
+    <link rel="stylesheet" href="base.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <script src=jquery-1.12.4.js></script>
+    <script src="base.js"></script>
+</head>
+<body>
+<!--表单开始-->
+<div class="form">
+    <div class="bg">
+        <div class="form-header middle">
+            <p>简体中文|繁體中文|English</p> <i>意见反馈</i>
+        </div>
+    </div>
+    <div class="form-content middle ">
+        <div class="left-content  fl clearfix">
+            <div class="top-left-content clearfix">
+                <i></i>
+
+                <p>QQ账号</p>
+                <span>由数字组成，经典通行帐号</span>
+            </div>
+            <div class="center-left-content">
+                <i></i>
+
+                <p>邮箱账号</p>
+                <span>用邮箱地址注册，便于记忆</span>
+            </div>
+            <div class="bottom-left-content">
+                <i></i>
+            </div>
+        </div>
+        <div class="right-content fr">
+            <div class="picture"></div>
+            <div class="qq-form">
+                <div class="zhuce"><span>注册账号</span></div>
+                <div class="linear"></div>
+                <i>昵称：</i> <input type="text" id="input1"/> <span></span><br/>
+                <i>密码：</i> <input type="password" id="input2"/> <span></span><br/>
+                <i> 确认密码：</i><input type="password" id="input3"/><span></span><br/>
+                <i>性别：</i>
+                <input type="radio" value="男" name="xb" checked="checked"/>
+                <input type="radio" value="女" name="xb"/> <br/>
+                <i>生日：</i>
+                <select name="rili" >
+                    <option value="">公历</option>
+                    <option value="">农历</option>
+                </select>
+                <select name="year" class="">
+                    <option value="" >1995年</option>
+                    <option value="" >1996年</option>
+                    <option value="" >1997年</option>
+                    <option value="" >1998年</option>
+                    <option value="" >1999年</option>
+                    <option value="" >2000年</option>
+                    <option value="" >2001年</option>
+                    <option value="" >2003年</option>
+                    <option value="" >2004年</option>
+                    <option value="" >2005年</option>
+                    <option value="" >2006年</option>
+                    <option value="" >2007年</option>
+                    <option value="" >2008年</option>
+                    <option value="" >2009年</option>
+                    <option value="" >2010年</option>
+                    <option value="" >2011年</option>
+                    <option value="" >2012年</option>
+                    <option value="" >2013年</option>
+                    <option value="" >2014年</option>
+                    <option value="" >2015年</option>
+                    <option value="" >2016年</option>
+                </select>
+                <select name="month" >
+                    <option value="">1月</option>
+                    <option value="">2月</option>
+                    <option value="">3月</option>
+                    <option value="">4月</option>
+                    <option value="">5月</option>
+                    <option value="">6月</option>
+                    <option value="">7月</option>
+                    <option value="">8月</option>
+                    <option value="">9月</option>
+                    <option value="">10月</option>
+                    <option value="">11月</option>
+                    <option value="">12月</option>
+                </select>
+                <select name="day" >
+                    <option value="">1日</option>
+                    <option value="">2日</option>
+                    <option value="">3日</option>
+                    <option value="">4日</option>
+                    <option value="">5日</option>
+                    <option value="">6日</option>
+                    <option value="">7日</option>
+                    <option value="">8日</option>
+                    <option value="">9日</option>
+                    <option value="">10日</option>
+                    <option value="">11日</option>
+                    <option value="">12日</option>
+                    <option value="">13日</option>
+                    <option value="">14日</option>
+                    <option value="">15日</option>
+                    <option value="">16日</option>
+                    <option value="">17日</option>
+                    <option value="">18日</option>
+                    <option value="">19日</option>
+                    <option value="">20日</option>
+                    <option value="">21日</option>
+                    <option value="">22日</option>
+                    <option value="">23日</option>
+                    <option value="">24日</option>
+                    <option value="">25日</option>
+                    <option value="">26日</option>
+                    <option value="">27日</option>
+                    <option value="">28日</option>
+                    <option value="">29日</option>
+                    <option value="">30日</option>
+                    <option value="">31日</option>
+                </select> <br/>
+                <i>所在地：</i>
+                <select name="antion" >
+                    <option value="" selected="selected">中国</option>
+                    <option value="">美国</option>
+                    <option value="">俄国</option>
+                    <option value="">法国</option>
+                    <option value="">英国</option>
+                </select>
+                <select name="area" >
+                    <option value="">北京</option>
+                    <option value="">旧金山</option>
+                    <option value="">莫斯科</option>
+                    <option value="">巴黎</option>
+                    <option value="">伦敦</option>
+                </select>
+                <select name="local" >
+                    <option value="">东城</option>
+                    <option value="">南城</option>
+                    <option value="">西城</option>
+                    <option value="">北城</option>
+                </select><br/>
+                <i>手机号码：</i>
+                <input type="text" id="input4"/> <span></span><br/>
+            </div>
+            <div class="text-form">
+                <i></i>
+                可通过该手机号码快速找回密码 <br/>
+                中国大陆地区以外手机号码 <a href="#">点击这里</a> <br/>
+                <button><a href="">立即注册</a></button>
+                <br/>
+                <i></i>
+                <input type="checkbox" checked/> 同时开通QQ空间
+                <br/>
+                <input type="checkbox" checked/>我已阅读并同意相关服务条款和隐私政策
+                <select name="poblic">
+                    <option value="">。。。</option>
+                    <option value="">《QQ号码规则》</option>
+                    <option value="">《QQ空间服务协议》</option>
+                    <option value="">《隐私政策》</option>
+                </select>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="bottom middle">Copyright © 1998-2016 Tencent All Rights Reserved 腾讯公司 版权所有</div>
+
+</div>
+<!--表单结束-->
+</body>
+</html>

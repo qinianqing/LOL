@@ -1,0 +1,205 @@
+
+/*注册表单开始、*/
+.form{
+    height: 109px;
+    background: #87C2FC;
+}
+.form .bg{
+    height: 109px;
+    background: url("images/shen-bg.png") center top no-repeat;
+}
+.middle{
+    width: 954px;
+    margin: 0 auto;
+}
+.form-header{
+    position: relative;
+    height: 109px;
+    color: #fff;
+    /*background: pink;*/
+}
+.form-header i{
+    position: absolute;
+    bottom: 25px;
+    right: 11px;
+}
+.form-header p{
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
+
+.form-content{
+    height: 940px;
+    border: 1px solid #B6BBC0;
+    border-top: 0px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.form-content .left-content{
+    position: relative;
+
+}
+.form-content .top-left-content{
+    position: absolute;
+    top: -55px;
+    margin-left: 1px;
+    background: url("images/shen_2.png") no-repeat;
+    height: 260px;
+    width: 220px;
+    color: #fff;
+    z-index: 3;
+}
+.top-left-content i{
+    height: 23px;
+    width: 24px;
+    background: url("images/shen_icon_1.png") 0 -150px no-repeat ;
+    position: absolute;
+    top: 98px;
+    left: 24px;
+}
+.top-left-content p{
+    position: absolute;
+    top: 98px;
+    left: 50px;
+    font-size: 22px;
+}
+.top-left-content span{
+    position: absolute;
+    top: 126px;
+    right: 54px;
+}
+
+.form-content .center-left-content{
+    position: absolute;
+    top: 32px;
+    margin-left: 1px;
+    background: url("images/shen_2.png") no-repeat;
+    height: 260px;
+    width: 220px;
+    color: #fff;
+    z-index: 1;
+}
+.form-content .center-left-content i{
+    height: 23px;
+    width: 24px;
+    background: url("images/shen_icon_1.png") 0 -50px no-repeat ;
+    position: absolute;
+    top: 92px;
+    left: 24px;
+}
+.form-content .center-left-content p{
+    position: absolute;
+    top: 94px;
+    left: 50px;
+    font-size: 22px;
+}
+.form-content .center-left-content span{
+    position: absolute;
+    top: 126px;
+    left: 24px;
+}
+
+
+.form-content .bottom-left-content{
+    width: 188px;
+    height: 940px;
+    padding-left: 1px;
+    padding-right: 2px;
+    border-right: 1px solid #B6BBC0;
+    background: #E4EDF6;
+    position: relative;
+}
+.form-content .bottom-left-content i{
+    height: 180px;
+    width: 180px;
+    background: url("images/shen_icon_1.png") 0 -252px no-repeat ;
+    position: absolute;
+    top: 300px;
+}
+
+
+/*右边开始*/
+.right-content {
+    width: 610px;
+    height: 940px;
+    margin: 20px  50px;
+}
+.right-content .picture{
+    width: 610px;
+    height: 163px;
+    background: url("images/shen-BannerC.jpg");
+}
+.right-content .zhuce span{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    width: 90px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-left: 2px solid #59AFE4;
+}
+.right-content .linear{
+    border-bottom: 2px solid #DDD;
+}
+.qq-form{
+    line-height: 50px;
+}
+.qq-form i{
+    display: block;
+    float: left;
+    right: 0;
+    height: 40px;
+    width: 60px;
+    text-align: right;
+}
+.qq-form input{
+    width: 300px;
+    height: 20px;
+    border: 1px solid #A7B6C4;
+}
+.qq-form input[type=radio]{
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 14px;
+    line-height: 20px;
+}
+.qq-form select{
+    background: #F3F9FC;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: #4199D7;
+}
+.text-form i{
+    display: block;
+    float: left;
+    right: 0;
+    height: 40px;
+    width: 60px;
+    text-align: right;
+}
+.text-form a{
+    color: #4199D7;
+}
+.text-form button{
+    width: 300px;
+    background:#69B946 ;
+    font-size: 20px;
+
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.text-form button a{
+    color: #fff;
+}
+.text-form select{
+    width: 20px;
+}
+
+.form .bottom{
+    text-align: center;
+}
+/*注册表单结束*/

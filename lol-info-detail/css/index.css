@@ -1,0 +1,660 @@
+/*header部分start*/
+.header {
+    height: 695px;
+    /*background-color: red;*/
+    background: url("../images/pic-inner-v6.jpg") no-repeat center 80px;
+}
+
+/*header-nav部分start*/
+
+.header-nav {
+    height: 80px;
+    background-color: #000000;
+    position: relative;
+
+}
+.header-box{
+    position: relative;
+}
+
+/*logo部分*/
+.logo {
+    display: inline-block;
+    width: 212px;
+    height: 114px;
+    margin-top: 7px;
+    background-color: red;
+    background: url(../images/public-spr.png) no-repeat -10px -173px;
+    float: left;
+    position: absolute;
+    z-index: 7;
+}
+
+/*nav导航部分*/
+.header-nav-ul {
+    /*position: absolute;*/
+    margin-left: 212px;
+    position: relative;
+
+}
+#moveimg{
+    position: absolute;
+    /*top:-10px;*/
+    left:220px;
+}
+
+.header-nav-ul li {
+    float: left;
+
+}
+
+.header-nav-ul a {
+    text-align: center;
+    display: inline-block;
+    width: 138px;
+    padding-top: 36px;
+    padding-bottom: 28px;
+    color: #E1E1E1;
+    font-size: 16px;
+}
+.header-nav-ul a:hover{
+    text-shadow: 2px 2px 8px #4ca6cd;
+    font-size: 20px;
+}
+
+.header-nav-ul a:hover {
+    color: #E1E1E1;
+}
+
+.header-nav-ul a span {
+    display: block;
+    color: #575757;
+    font-size: 10px;
+}
+
+.nocursor {
+    cursor: default;
+}
+
+/*隐藏部分start*/
+.hideul {
+    display: none;
+    width: 100%;
+    height: 221px;
+    background-color: rgba(0, 0, 0, 0.8);
+    /*position: relative;*/
+    position: absolute;
+    z-index: 6;
+    /*top: -41px;*/
+    color: white;
+    /*overflow: hidden;*/
+    /*margin-top: 0px;*/
+
+}
+
+.hideul ul {
+    text-align: center;
+    width: 102px;
+    float: left;
+    margin-left: 39px;
+    margin-top: 26px;
+
+}
+
+.hideul ul a {
+    color: #e1e1e1;
+}
+
+.hideul ul a:hover {
+    color: #16c2a2;
+}
+
+.hideul ul li {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.hideul .firul {
+    margin-left: 360px;
+}
+
+/*隐藏部分end*/
+
+/*header-nav部分end*/
+
+/*header-banner部分start*/
+
+.banner{
+    height: 500px;
+    padding-top: 115px;
+    /*background-color: darkgrey;*/
+    position: relative;
+}
+.fontcrazy {
+    font-size: 50px;
+    font-weight: 700;
+    color: #16E6CB;
+    text-shadow: -2px -2px 5px #000000;
+}
+
+.fontcrazy p {
+    color: white;
+    font-size: 16px;
+    line-height: 80px;
+}
+
+.header .details {
+    display: block;
+    width: 155px;
+    height: 36px;
+    border: 2px solid #05B896;
+    background-color: rgba(0, 0, 0, 0.6);
+    line-height: 36px;
+    text-align: center;
+    color: #05B896;
+    font-weight: 700;
+}
+.header .details:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+.header #havcursor{
+    cursor: pointer;
+}
+
+.details:hover {
+    color: #05B896;
+}
+
+.download {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+
+}
+
+.download a{
+
+    text-align: center;
+}
+
+.download .downgame {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    width: 220px;
+    /*background-color: darkblue;*/
+    background: url(../images/public-spr.png) no-repeat 0px -472px;
+}
+
+.download .login {
+    padding-top: 20px;
+    float: left;
+    width: 112px;
+    height: 95px;
+    width: 460px;
+
+}
+
+.download i {
+    display: block;
+    margin-top: 16px;
+    margin-left: 38px;
+    width: 37px;
+    height: 41px;
+
+}
+
+
+
+.download .freshman {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    background: url(../images/public-spr.png) no-repeat -220px -472px;
+    text-align: center;
+}
+
+.download .freshman i {
+    background: url("../images/public-spr.png");
+}
+
+.download p {
+    color: white;
+    font-size: 16px;
+}
+
+.download .views {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    background: url(../images/public-spr.png) no-repeat -332px -472px;
+}
+
+.download .views i {
+    background: url("../images/public-spr.png") no-repeat -45px 0px;
+}
+
+.download .events {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    background: url(../images/public-spr.png) no-repeat -444px -472px;
+}
+
+.download .events i {
+    background: url("../images/public-spr.png") no-repeat -85px 0px;
+}
+
+.download .gameifo {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    background: url(../images/public-spr.png) no-repeat -556px -472px;
+}
+
+.download .gameifo i {
+    background: url("../images/public-spr.png") no-repeat -122px 0px;
+}
+
+.download .usenter {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    background: url(../images/public-spr.png) no-repeat -669px -472px;
+}
+
+.download .usenter i {
+    background: url("../images/public-spr.png") no-repeat -156px 0px;
+}
+
+.download .login {
+    background: url(../images/public-spr.png) no-repeat -780px -472px;}
+
+.picus{
+    width: 80px;
+    height: 80px;
+    background: url(../images/ttt.png);
+    float: left;
+    margin-left: 20px;
+}
+.login .loginfont{
+
+    float: left;
+    margin-left: 30px;
+    font-size: 11px;
+}
+.loginfont p{
+    font-size: 11px;
+}
+.loginfont p a{
+    color: #05B896;
+}
+.loginfont .p1{
+    font-size:16px;
+}
+.loginfont .p2{
+    font-size:10px;
+    margin-top: 10px;
+}
+.loginfont .p2 span{
+    color: #C1CFE8;
+}
+
+.i {
+    width: 39px;
+    height: 40px;
+    background-color:#293550;
+    padding-top:10px;
+    padding-left:15px;
+    margin: 13px;
+    float: left;
+
+
+}
+
+
+.download .i i {
+    margin: 0;
+    padding: 0;
+    width: 33px;
+    height: 33px;
+    display: block;
+    background-color: saddlebrown;
+    background: url(../images/public-spr.png) no-repeat -169px -42px;
+}
+.gamever span{
+    font-size: 16px;
+    color: #05B896;
+}
+.gamever{
+    position: absolute;
+    height: 22px;
+    right: 0;
+    bottom: 135px;
+}
+.gamever p{
+    line-height: 22px;
+    float: left;
+}
+.gamever a{
+    float: left;
+    display: block;
+    width: 78px;
+    height: 22px;
+    border: 2px solid #05B896;
+    background-color: #000000;
+    opacity: 0.5;
+    line-height: 22px;
+    text-align: center;
+    color: #05B896;
+}
+.gamever a:hover{
+    opacity: 1;
+}
+
+
+/*header-banner部分end*/
+/*jq用到的类*/
+
+/*header部分end*/
+/*遮罩部分*/
+.mask{
+    z-index: 8;
+    top:0px;
+    left:0px;
+    position: absolute;
+    width: 100%;
+    height: 2550px;
+    background-color: rgba(230, 245, 255,0.5);
+    display: none;
+}
+.loginbar{
+    display: none;
+    z-index: 10;
+    top:0;
+    left: 50%;
+    position: absolute;
+    width: 619px;
+    height: 364px;
+    margin-left:-310px;
+    margin-top: 135px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+#removebox{
+    width: 619px;
+    height: 40px;
+    /*background-color: deeppink;*/
+    position: absolute;
+    top:0px;
+    left: 0;
+}
+#removebox:hover{
+    cursor: move;
+}
+.closebaner{
+    width: 47px;
+    height: 18px;
+    border-left:#DADADA;
+    background: url(../images/icon_3_tiny.png) -221px -126px no-repeat;
+    float: right;
+}
+.closebaner:hover{
+    cursor: pointer;
+}
+.fontqiuck{
+    padding-top: 50px;
+    height: 70px;
+    margin-top: 18px;
+    text-align: center;
+    font-size:18px;
+    color: #333333;
+}
+.dirp{
+    margin-bottom: 18px;
+}
+#tip{
+    display: block;
+    margin-top: 18px;
+}
+.fontqiuck a{
+    color: #3481CF;
+}
+.quickcontent{
+    text-align: center;
+    margin-top: 23px;
+    position: relative;
+}
+#clearContent{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background:url(../images/icon_3_tiny.png) no-repeat -117px -161px;
+    position: absolute;
+    top:8px;
+    left:420px;
+}
+#clearPwd{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background:url(../images/icon_3_tiny.png) no-repeat -117px -161px;
+    position: absolute;
+    top:65px;
+    left:420px;
+}
+#clearContent a,#clearPwd a{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+#username,#pwd,#sub{
+    margin: 15px auto 0px auto;
+    display: block;
+    width: 257px;
+    height: 38px;
+    border: 1px solid #D6D6D6;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+#username,#pwd{
+    padding-left: 11px;
+}
+
+#sub{
+    width: 270px;
+    height: 40px;
+    background-color: #86CE2F;
+}
+.quickabox{
+    margin-top: 30px;
+    float: right;
+
+}
+
+.quicka{
+    display:inline-block;
+    width: 77px;
+    height: 12px;
+    border-right:1px solid #CDBFCD;
+    font-size: 13px;
+    text-align: center;
+
+}
+.quicka:hover{
+    text-decoration:underline;
+    color: #4ca6cd;
+}
+.noborderringht{
+    border-right:0px solid #CDBFCD;
+}
+
+
+
+
+/*=====================底部页脚foot部分start=======================*/
+.foot {
+    height: 239px;
+    background-color: #F3F3F3;
+}
+.foot_friend {
+    height: 107px;
+    border-bottom: 3px solid #D0D0D0;
+}
+.foot_weixin{
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+    background:url("../images/footlogo.png") -264px 0 no-repeat;
+}
+.ff_normal{
+    margin-top: 30px;
+    width: 421px;
+}
+/*底部字体默认样式*/
+.foot .font_f{
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #A5A5A5;
+}
+
+.ff_normal .leftem{
+    display: inline-block;
+    margin-left: 20px;
+}
+.foot .fb {
+    font-weight: bold;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+}
+.foot-ul li{
+    display: inline;
+    padding-right: 10px;
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #A5A5A5;
+}
+/*/英雄联盟 官方合作媒体BOX*!/*/
+.foot_lnkBox{
+    width: 276px;
+    height: 34px;
+    border: 2px solid #E2E2E2;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 25px;
+    position: relative;
+}
+.footer_lnk {
+    width: 276px;
+    height: 34px;
+    border: 1px solid #CBCBCB;
+    cursor: pointer;
+}
+.footer_lnk span {
+    margin-top: 5px;
+    width: 250px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-right: 1px solid #DBDBDB;
+}
+/*隐藏的盒子*/
+#foot_lnkMtBox  {
+    height: 180px;
+    width: 274px;
+    /*display: inline-block;*/
+    /*display: none;*/
+    position: absolute;
+    top: -180px;
+    left: 0;
+    overflow: hidden;
+}
+.foot_lnkMt  {
+    display: inline-block;
+    width: 272px;
+    height: 176px;
+    border: 2px solid #E2E2E2;
+    background-color: #fff;
+    position: absolute;
+    top: 180px;
+    /*top: 35px;*/
+    /*left: 0;*/
+    /*display: none;*/
+    overflow: hidden;
+}
+.lnkMt_content li {
+    display: inline-block;
+    width: 100%;
+}
+
+/*滚动条*/
+.ser_scroll {
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #eee;
+}
+.ser_bar {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #36AB87;
+    border-radius:  5px;
+    cursor: pointer;
+}
+.ico-arrowdown {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 7px;
+    height: 6px;
+    background: url("../images/public-spr.png") -1233px -428px no-repeat;
+}
+
+
+
+/*页脚底部*/
+.foot_f {
+    padding-top: 22px;
+
+}
+.foot_f .foot_logo {
+    display: inline-block;
+    width: 264px;
+    height: 66px;
+    background:url("../images/footlogo.png") 0 0 no-repeat;
+}
+.foot_f ul {
+    display: inline-block;
+    width: 660px;
+}
+.foot_f ul li{
+    display: inline-block;
+    float: left;
+}
+
+#rocket {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 5px;
+    bottom: 200px;
+    display: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+#rocket img{
+    width: 70px;
+    height: 70px;
+}
+/*========================底部页脚foot部分end=========================*/

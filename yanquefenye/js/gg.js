@@ -1,0 +1,2 @@
+//此文件用于生成广告地址，您可以按实际情况修改“”引号中的地址
+setTimeout('document.getElementById("ost_gg").href="http://lol.qq.com/act/a20160523taliyah/?ADTAG=cooperation.inner.lolwebtop";',10);/*  |xGv00|ca55192d557159d62f44c991c9e697e9 */

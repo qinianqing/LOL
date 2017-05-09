@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*设置默认编码集*/
+
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+/*各浏览器显示不同，去掉边框等默认样式*/
+fieldset, img, input, button {
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+    font-family: "Microsoft YaHei"; /*字体*/
+}
+
+/*防止拖动 影响布局*/
+textarea {
+    resize: none;
+}
+
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: normal 12px/1.6em "Microsoft YaHei", Tahoma, simsun; /*字体系列*/
+    color: #666;
+    background: #F7F8F8; /*背景色*/
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none; /*默认无样式,颜色不变*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/*废物利用*/
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*lol主体文字色调*/
+.base-color {
+    color: #36AB87 !important;
+}
+
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+
+

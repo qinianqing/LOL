@@ -1,0 +1,1095 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0
+}
+
+body, button, input, select, textarea {
+    font: 12px/24px "\5FAE\8F6F\96C5\9ED1", tahoma, arial, \5b8b\4f53, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal
+}
+
+article, aside, details, figure, footer, header, menu, nav, section {
+    display: block
+}
+
+a {
+    text-decoration: none;
+    outline: none
+}
+
+a:hover, a:active {
+    outline: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+ul {
+    list-style-type: none
+}
+
+ol {
+    list-style-type: decimal
+}
+
+strong, th {
+    font-weight: bold
+}
+
+fieldset, img {
+    border: 0;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.hide {
+    overflow: hidden;
+    text-indent: -999em
+}
+
+.dn {
+    display: none;
+}
+
+body {
+    padding-top: 42px;
+    background: #10070a
+}
+
+.sp {
+    overflow: hidden;
+    background: url("../imgs/sp.png") no-repeat;
+}
+
+.title-sp {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url("../imgs/title-sp.png") no-repeat;
+    z-index: 100
+}
+
+.wrap {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 283px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-width: 1280px;
+    overflow: hidden;
+}
+
+.logo {
+    display: block;
+    width: 240px;
+    height: 100px;
+    margin-left: 50px;
+    background-position: 0 0;
+}
+
+.section {
+    position: relative;
+    font-size: 18px;
+    color: #a1ddff;
+}
+
+.line {
+    position: absolute;
+    left: 50%;
+    width: 1920px;
+    height: 100px;
+    margin-left: -960px;
+    text-align: center;
+    background: url("../imgs/line.png") no-repeat center top;
+    z-index: 10
+}
+
+.btn {
+    display: block;
+    width: 256px;
+    height: 83px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url("../imgs/sp.png") no-repeat;
+}
+
+.btn-buy, .btn-buy2 {
+    background-position: 0 -166px
+}
+
+.tab-panel {
+    display: none;
+}
+
+.dis {
+    display: block;
+}
+
+.play {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    margin: -40px 0 0 -40px;
+    background-position: -272px -113px;
+}
+
+.video-small {
+    display: block;
+    position: relative;
+    width: 311px;
+    height: 204px;
+}
+
+.video-small a {
+    display: block;
+    position: relative;
+    width: 311px;
+    height: 204px;
+}
+
+.video-small a:hover .play {
+    background-position: -353px -113px
+}
+
+.section1, .section2,
+
+,
+.section3, .section4, .section5, .section6 {
+    position: absolute;
+    left: 50%;
+    width: 1920px;
+    margin-left: -960px
+}
+
+.section1 {
+    position: relative;
+    height: 1025px;
+    background: url("../imgs/section_01.jpg") center top no-repeat;
+}
+
+.section1 .wrap {
+    padding-top: 20px;
+}
+
+.section1 .title {
+    position: relative;
+    width: 493px;
+    height: 480px;
+    margin: 25px 0 0 -70px;
+    text-indent: -999em;
+    background: url("../imgs/title.png") no-repeat;
+    z-index: 100
+}
+
+.section1 .main {
+    position: relative;
+    z-index: 10
+}
+
+.section1 .buybtn {
+    position: relative;
+    display: block;
+    width: 322px;
+    height: 97px;
+    margin: 15px 0 0 9px;
+    padding: 27px 0;
+    text-indent: -999em;
+    background: url("../imgs/herobuy.png") no-repeat -99px 0;
+    z-index: 10
+}
+
+.section1 .buybtn .l, .section1 .buybtn .r {
+    position: absolute;
+    display: inline-block;
+    width: 99px;
+    height: 97px;
+    background: url("../imgs/herobuy.png") no-repeat;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out
+}
+
+.section1 .buybtn .l {
+    left: -35px;
+    background-position: 0 50%
+}
+
+.section1 .buybtn .r {
+    right: -35px;
+    background-position: -421px 50%
+}
+
+.section1 .buybtn:hover .l {
+    left: -20px;
+}
+
+.section1 .buybtn:hover .r {
+    right: -20px;
+}
+
+.section1 .defail {
+    position: relative;
+    width: 302px;
+    height: 304px;
+    top: -48px;
+    left: 32px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url("../imgs/defail.png") 0 0 no-repeat;
+}
+
+.js-plaxify {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.section1 .taliyah {
+    left: -58px;
+    margin-top: 0px;
+}
+
+.section1 .update {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    z-index: 1000;
+    color: #f2daa6
+}
+
+.section2 {
+    width: 100%;
+    height: 1761px;
+    background: url("../imgs/section_02.jpg") center top no-repeat;
+}
+
+.section2 .wrap {
+    padding-top: 122px;
+    height: 1639px;
+}
+
+.section2 .title {
+    height: 112px;
+    margin-bottom: 20px;
+    background-position: 0 0;
+}
+
+.section2 .shuima-logo {
+    display: block;
+    width: 202px;
+    height: 197px;
+    margin: 0 auto;
+    background-position: -256px 0
+}
+
+.section2 .text {
+    position: relative;
+    width: 882px;
+    height: 237px;
+    margin: 0 auto;
+    background: url("../imgs/text.png") no-repeat 0 0;
+    overflow: hidden;
+    text-indent: -999em;
+}
+
+.section2 .main {
+    position: relative;
+    z-index: 100;
+}
+
+.section2 .taliyah-aside, .section2 .yasuo-aside {
+    position: relative;
+    height: 106px;
+    font-size: 24px;
+    font-family: "\6977\4F53_GB2312";
+    color: #382600;
+}
+
+.section2 .taliyah-aside {
+    width: 540px;
+    margin: 73px 0 0 215px
+}
+
+.section2 .taliyah-icon {
+    display: block;
+    float: right;
+    width: 106px;
+    height: 106px;
+    background-position: 0 -249px
+}
+
+.section2 .taliyah-text {
+    display: block;
+    float: left;
+    margin-top: 24px;
+    width: 431px;
+    height: 57px;
+    line-height: 52px;
+    background-position: 0 -355px
+}
+
+.section2 .taliyah-img {
+    position: absolute;
+    left: 50%;
+    top: 622px;
+    width: 1197px;
+    height: 866px;
+    margin-left: -417px;
+    background: url("../imgs/taliya.png") no-repeat;
+    z-index: 1
+}
+
+.section2 .yasuo-aside {
+    margin: -13px 0 0 30px
+}
+
+.section2 .yasuo-icon {
+    display: block;
+    float: left;
+    width: 106px;
+    height: 106px;
+    background-position: -106px -249px
+}
+
+.section2 .yasuo-text {
+    display: block;
+    float: left;
+    margin-top: 24px;
+    width: 501px;
+    height: 57px;
+    line-height: 52px;
+    background-position: 0 -412px
+}
+
+.section2 .yasuo-img {
+    position: absolute;
+    left: 50%;
+    top: 912px;
+    width: 978px;
+    height: 753px;
+    margin-left: -816px;
+    background: url("../imgs/yasuo%20(1).png") no-repeat;
+    z-index: 10
+}
+
+.section2 .story-video {
+    position: absolute;
+    left: 50%;
+    top: 1128px;
+    width: 400px;
+    height: 235px;
+    margin-left: 31px;
+    z-index: 9;
+}
+
+.section2 .video-title {
+    width: 394px;
+    height: 20px;
+    background: url("../imgs/text.png") no-repeat 179px -262px;
+}
+
+.section2 .story-video .story {
+    position: relative;
+    display: block;
+    width: 394px;
+    height: 263px;
+    background: url("../imgs/story-video.png") no-repeat;
+}
+
+.story-a1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 215px;
+    z-index: 11
+}
+
+.story-a2 {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    width: 145px;
+    height: 35px;
+}
+
+.section2 .btn-story {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 674px 0 0 -343px;
+    background-position: 0 0;
+    z-index: 100
+}
+
+.section2 .btn-shuima {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 674px 0 0 96px;
+    background-position: 0 -83px;
+    z-index: 100
+}
+
+.section3 {
+    width: 100%;
+    height: 1110px;
+    background: url("../imgs/section_03.jpg") center top no-repeat;
+}
+
+.section3 .wrap {
+    padding-top: 176px
+}
+
+.section3 .main {
+    position: relative;
+    z-index: 100
+}
+
+.section3 .title {
+    height: 86px;
+    margin-bottom: 8px;
+    background-position: 0 -112px;
+}
+
+.section3 .btn {
+    margin: 30px auto
+}
+
+.video {
+    position: relative;
+    width: 670px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+.videocon {
+    display: block;
+    width: 670px;
+    height: 380px;
+    margin: 0 auto;
+    background: url("../imgs/video-bg.png") no-repeat;
+}
+
+.videobox {
+    position: relative;
+    width: 640px;
+    height: 356px;
+    padding: 7px 0 0 9px;
+}
+
+.videocon a {
+    display: block;
+    width: 640px;
+    height: 356px;
+}
+
+.tenvideo_player {
+    width: 100%;
+    height: 100%;
+}
+
+.videobox i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 61px;
+    height: 81px;
+    margin: -41px 0 0 -31px;
+    background: url("../imgs/sp.png") no-repeat -300px -200px;
+    cursor: pointer;
+}
+
+.skillvideo, .skilltab {
+    position: relative;
+    z-index: 3
+}
+
+.skilltab {
+    width: 470px;
+    height: 117px;
+    margin: 0 auto;
+}
+
+.skilltab li {
+    position: relative;
+    display: inline;
+    float: left;
+    width: 83px;
+    height: 117px;
+    margin: 0 5px;
+    z-index: 100
+}
+
+.skilltab li.active, .skilltab li:hover {
+    background: url("../imgs/video-sp.png") 0 0 no-repeat
+}
+
+.skilltab li a {
+    position: relative;
+    display: block;
+    width: 83px;
+    height: 117px;
+    background: url("../imgs/video-sp.png") -83px 0 no-repeat
+}
+
+.skilltab li i {
+    position: absolute;
+    left: 11px;
+    top: 27px;
+    display: block;
+    width: 55px;
+    height: 55px;
+    filter: Alpha(Opacity=60);
+    opacity: 0.6;
+    background: url("../imgs/video-sp.png") no-repeat
+}
+
+.skilltab li i.skill-p {
+    background-position: -176px -27px
+}
+
+.skilltab li i.skill-q {
+    background-position: -231px -27px
+}
+
+.skilltab li i.skill-w {
+    background-position: -285px -27px
+}
+
+.skilltab li i.skill-e {
+    background-position: -340px -27px
+}
+
+.skilltab li i.skill-r {
+    background-position: -395px -27px
+}
+
+.skilltab li:hover i {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear
+}
+
+.skilltab li.active i {
+    filter: Alpha(Opacity=1);
+    opacity: 1;
+}
+
+.skilltab li a {
+    display: block;
+    padding-top: 20px
+}
+
+.skillvideo {
+    height: 200px;
+    padding: 0 200px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.skillvideo li {
+    display: none
+}
+
+.skillvideo h5 {
+    height: 46px;
+    line-height: 46px;
+    font-size: 24px;
+    color: #cdb77b;
+    text-align: center
+}
+
+.skillvideo p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+    color: #cdb77b;
+    text-align: center
+}
+
+.tips {
+    width: 600px;
+    margin: 0 auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.tips ul {
+    width: 240px;
+    margin: 0 auto 10px
+}
+
+.tips li {
+    display: inline;
+    float: left;
+    width: 36px;
+    height: 60px;
+    margin: 0 7px;
+    border: 1px solid #6c6c6c;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 0 0 8px;
+    text-align: left;
+    color: #6c6c6c;
+}
+
+.tips li.cur {
+    color: #6c6c6c;
+    background: #41342d;
+    filter: Alpha(opacity=50);
+    background: rgba(65, 52, 45, 0.5);
+}
+
+.tips p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.section4 {
+    width: 100%;
+    height: 1527px;
+    background: url("../imgs/section_04.jpg") center top no-repeat;
+}
+
+.section4 .wrap {
+    padding-top: 140px;
+}
+
+.section4 .main {
+    position: relative;
+    z-index: 100
+}
+
+.section4 .title {
+    height: 91px;
+    margin-bottom: 20px;
+    background-position: 0 -198px;
+}
+
+.section4 .text {
+    width: 847px;
+    height: 385px;
+    margin: 0 auto;
+    background: url() no-repeat;
+}
+
+.section4 .champion {
+    margin-bottom: 14px;
+}
+
+.section4 .section-line {
+    height: 26px;
+    margin-bottom: 20px;
+    background-position: 0 -289px;
+}
+
+.section4 .btn-buy {
+    margin: 8px auto
+}
+
+.section5 {
+    height: 1082px;
+    background: url("../imgs/section_05.jpg") center top no-repeat;
+}
+
+.section5 .wrap {
+    padding-top: 135px;
+}
+
+.section5 .main {
+    position: relative;
+    z-index: 100
+}
+
+.section5 .title {
+    height: 86px;
+    background-position: 0 -315px;
+}
+
+.section5 .btn-buy {
+    float: left;
+    margin: 30px 0 0 100px
+}
+
+.section5 .btn-buy2 {
+    float: left;
+    margin: 30px 0 0 280px
+}
+
+.section6 {
+    height: 582px;
+    background: url("../imgs/section_06.jpg") center top no-repeat;
+}
+
+.section6 .wrap {
+    padding-top: 138px;
+}
+
+.section6 .main {
+    position: relative;
+    z-index: 100
+}
+
+.section6 .title {
+    height: 86px;
+    margin-bottom: 42px;
+    background-position: 0 -401px;
+}
+
+.champion_list {
+    position: relative;
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 45px;
+    border: 1px solid #492e11;
+    overflow: hidden;
+    background: #03060b
+}
+
+.champion_list .arrow {
+    display: block;
+    position: absolute;
+    top: 45px;
+    width: 24px;
+    height: 97px;
+}
+
+.champion_list .arrow1 {
+    left: 45px;
+    background-position: -242px -256px;
+}
+
+.champion_list .arrow2 {
+    right: 45px;
+    background-position: -217px -256px;
+}
+
+.champion_list .do {
+    display: none;
+}
+
+.rollboxs li {
+    float: left;
+    display: inline;
+}
+
+.rollboxs a {
+    display: inline;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 20px 10px;
+    box-shadow: 1px 1px 8px #000
+}
+
+.rollboxs {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.rollboxs a:hover {
+}
+
+.rollboxs img {
+    filter: Alpha(Opacity=50);
+    opacity: 0.5;
+}
+
+.rollboxs a:hover img {
+    filter: Alpha(Opacity=100);
+    opacity: 1;
+}
+
+.side {
+    display:;
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    height: 318px;
+    padding: 98px 0;
+    margin-top: -257px;
+    _position: absolute;
+    _top: 600px;
+    z-index: 1000;
+    background: url("../imgs/sp.png") no-repeat -502px 0;
+}
+
+.side li {
+    width: 55px;
+    height: 53px;
+    margin-bottom: 15px;
+}
+
+.side a {
+    position: relative;
+    display: block;
+    width: 55px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #812013;
+    /*background: url();*/
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    left: -16px;
+    display: block-inline;
+    width: 16px;
+    height: 53px;
+}
+
+.side a:hover, .side a.curr {
+    text-decoration: none;
+    color: #ffa338
+}
+
+.side a:hover .icon, .side .curr .icon {
+    background: url("../imgs/sp.png") no-repeat -276px -278px;
+}
+
+#footer_ied {
+    position: relative;
+    text-align: center;
+    background-color: #10070a
+}
+
+#footer_ied .wrap_ied {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0
+}
+
+#footer_ied p {
+    color: #4F3425;
+    line-height: 24px;
+    font-size: 10px;
+}
+
+#footer_ied a {
+    color: #4F3425;
+    font-size: 12px
+}
+
+/*pop*/
+.popup {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 800px;
+    height: 450px;
+    z-index: 10;
+    border: 1px solid #967840;
+    background-color: #000;
+}
+
+.popup img {
+    width: 100%;
+    height: 100%;
+}
+
+.pop-close {
+    position: absolute;
+    top: -7px;
+    right: -60px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    font: bold 70px/60px simsun;
+    color: #967840;
+}
+
+.pop-close:hover {
+    text-decoration: none
+}
+
+.popup .tenvideo_player {
+    width: 800px;
+    height: 450px;
+}
+
+.leftbtn, .rightbtn {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 40px;
+    height: 60px;
+    margin-top: -30px;
+    font: bold 70px/60px simsun;
+    color: #967840;
+}
+
+.leftbtn {
+    left: 0;
+}
+
+.rightbtn {
+    right: 0;
+    text-decoration: underline;
+}
+
+.anrotate {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    width: 1920px;
+    height: 220px;
+    margin-left: -960px;
+    overflow: hidden;
+    z-index: 10
+}
+
+.anrotate-l {
+    position: relative;
+    float: left;
+    width: 660px;
+    height: 220px
+}
+
+.anrotate-r {
+    position: relative;
+    float: right;
+    width: 660px;
+    height: 220px;
+}
+
+.a1, .a4 {
+    width: 830px;
+    height: 830px;
+}
+
+.a2, .a3 {
+    width: 560px;
+    height: 560px;
+}
+
+.a1 {
+    position: absolute;
+    left: 0;
+    top: -5px;
+    margin-left: -527px;
+    z-index: 10
+}
+
+.a2 {
+    position: absolute;
+    left: 0;
+    top: 107px;
+    margin-left: -30px;
+    z-index: 1
+}
+
+.a3 {
+    position: absolute;
+    right: 0;
+    top: 105px;
+    margin-right: -30px;
+    z-index: 1
+}
+
+.a4 {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    margin-right: -500px;
+    z-index: 10
+}
+
+.a1 {
+    -webkit-transform: rotate(-324deg);
+    -moz-transform: rotate(-324deg);
+    -o-transform: rotate(-324deg);
+    transform: rotate(-324deg);
+    background: url("../imgs/rotate1.png") no-repeat;
+}
+
+.a2 {
+    -webkit-transform: rotate(-324deg);
+    -moz-transform: rotate(-324deg);
+    -o-transform: rotate(-324deg);
+    transform: rotate(-324deg);
+    background: url("../imgs/rotate2.png") no-repeat;
+}
+
+.a3 {
+    -webkit-transform: rotate(324deg);
+    -moz-transform: rotate(324deg);
+    -o-transform: rotate(324deg);
+    transform: rotate(324deg);
+    background: url("../imgs/rotate3.png") no-repeat;
+}
+
+.a4 {
+    -webkit-transform: rotate(324deg);
+    -moz-transform: rotate(324deg);
+    -o-transform: rotate(324deg);
+    transform: rotate(324deg);
+    background: url("../imgs/rotate4.png") no-repeat;
+}
+
+.fade .bd {
+    overflow: hidden;
+    position: relative
+}
+
+.fade .tab-panel {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    z-index: 1;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.fade .dis {
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.chromeframe {
+    position: absolute;
+    width: 100%;
+    background: #000;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    z-index: 3;
+    font-size: 14px;
+}

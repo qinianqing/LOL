@@ -1,0 +1,293 @@
+@charset "UTF-8";
+/*设置默认编码集*/
+
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+/*各浏览器显示不同，去掉边框等默认样式*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*防止拖动 影响布局*/
+textarea {
+    resize: none;
+}
+
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+   font: normal 12px/1.6em Microsoft YaHei,Tahoma,simsun;
+    color: #666;
+    background: #fff;
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #36AB87;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/*废物利用*/
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*lol主体文字色调*/
+/*.base-color {*/
+    /*color: #36AB87 !important;*/
+/*}*/
+
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+/*顶部工具栏start*/
+.shortcut {
+    height: 30px;
+    background-color: #F1F1F1;
+    line-height: 30px;
+}
+
+/*顶部工具栏end*/
+
+/*=====================底部页脚foot部分start=======================*/
+.foot {
+    height: 239px;
+    background-color: #F3F3F3;
+}
+.foot_friend {
+    height: 107px;
+    border-bottom: 3px solid #D0D0D0;
+}
+.foot_weixin{
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+    background:url("../images/footlogo.png") -264px 0 no-repeat;
+}
+.ff_normal{
+    margin-top: 30px;
+    width: 421px;
+}
+/*底部字体默认样式*/
+.foot .font_f{
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #A5A5A5;
+}
+
+.ff_normal .leftem{
+    display: inline-block;
+    margin-left: 20px;
+}
+.foot .fb {
+    font-weight: bold;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+}
+.foot-ul li{
+    display: inline;
+    padding-right: 10px;
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #A5A5A5;
+}
+/*/英雄联盟 官方合作媒体BOX*!/*/
+.foot_lnkBox{
+    width: 276px;
+    height: 34px;
+    border: 2px solid #E2E2E2;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 25px;
+    position: relative;
+}
+.footer_lnk {
+    width: 276px;
+    height: 34px;
+    border: 1px solid #CBCBCB;
+    cursor: pointer;
+}
+.footer_lnk span {
+    margin-top: 5px;
+    width: 250px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-right: 1px solid #DBDBDB;
+}
+/*隐藏的盒子*/
+#foot_lnkMtBox  {
+    height: 180px;
+    width: 274px;
+    /*display: inline-block;*/
+    /*display: none;*/
+    position: absolute;
+    top: -180px;
+    left: 0;
+    overflow: hidden;
+}
+.foot_lnkMt  {
+    display: inline-block;
+    width: 272px;
+    height: 176px;
+    border: 2px solid #E2E2E2;
+    background-color: #fff;
+    position: absolute;
+    top: 180px;
+    /*top: 35px;*/
+    /*left: 0;*/
+    /*display: none;*/
+    overflow: hidden;
+}
+.lnkMt_content li {
+    display: inline-block;
+    width: 100%;
+}
+
+/*滚动条*/
+.ser_scroll {
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #eee;
+}
+.ser_bar {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #36AB87;
+    border-radius:  5px;
+    cursor: pointer;
+}
+.ico-arrowdown {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 7px;
+    height: 6px;
+    background: url("../images/public-spr.png") -1233px -428px no-repeat;
+}
+
+
+
+/*页脚底部*/
+.foot_f {
+    padding-top: 22px;
+
+}
+.foot_f .foot_logo {
+    display: inline-block;
+    width: 264px;
+    height: 66px;
+    background:url("../images/footlogo.png") 0 0 no-repeat;
+}
+.foot_f ul {
+    display: inline-block;
+    width: 660px;
+}
+.foot_f ul li{
+    display: inline-block;
+    float: left;
+}
+
+#rocket {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 5px;
+    bottom: 200px;
+    display: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+#rocket img{
+    width: 70px;
+    height: 70px;
+}
+
+/*========================底部页脚foot部分end=========================*/

@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>英雄联盟官方网站-腾讯</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/LOL.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/video.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/LOL.js"></script>
+    <script src="js/videoDatas.js"></script>
+
+</head>
+<body>
+<!--=============================================LOL第一部分-开始======================================-->
+<div class="header">
+    <!--导航部分开始-->
+    <div class="header-nav" id="header-nav">
+        <div class="header-box w clearfix">
+            <!--logo部分-->
+            <h1>
+                <a class="logo" href="#"></a>
+            </h1>
+            <!--nav部分start-->
+            <img id="moveimg" height="80px" src="images/nabg2.png" alt="">
+            <ul class="header-nav-ul clearfix" id="header-nav-ul">
+                <li>
+                    <a href="index.html">官方首页
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">游戏资料
+
+                    </a>
+
+                </li>
+                <li>
+                    <a class="nocursor">商城/合作
+
+                    </a>
+                </li>
+                <li>
+                    <a class="nocursor">用户互动
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">赛事中心
+
+                    </a>
+
+                </li>
+                <li>
+                    <a class="nocursor" href="#"> 自助系统
+
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#">个人中心
+
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--隐藏部分start-->
+    <div class="hideul" id="hideul">
+        <div class="hideulbox w">
+            <ul class="firul">
+                <li><a href="construct/index.html">新手指引</a></li>
+                <li><a href="construct/index.html">资料库</a></li>
+                <li><a href="construct/index.html">攻略中心</a></li>
+                <li><a href="construct/index.html">模式实验室</a></li>
+            </ul>
+            <ul>
+                <li><a href="construct/index.html">点券充值</a></li>
+                <li><a href="construct/index.html">道聚城</a></li>
+                <li><a href="construct/index.html">周边商城</a></li>
+                <li><a href="construct/index.html">LOL信用卡</a></li>
+                <li><a href="construct/index.html">网吧特权</a></li>
+            </ul>
+            <ul>
+                <li><a href="construct/index.html">在线客服</a></li>
+                <li><a href="construct/index.html">活动中心</a></li>
+                <li><a href="construct/index.html">官方论坛</a></li>
+                <li><a href="construct/index.html">官方微信</a></li>
+                <li><a href="construct/index.html">官方微博</a></li>
+            </ul>
+            <ul>
+                <li><a href="construct/index.html">LPL职业联赛</a></li>
+                <li><a href="construct/index.html">甲级职业联赛</a></li>
+                <li><a href="construct/index.html">德玛西亚杯</a></li>
+                <li><a href="construct/index.html">城市英雄争霸赛</a></li>
+                <li><a href="construct/index.html">高校联赛</a></li>
+                <li><a href="construct/index.html">王者峡谷</a></li>
+            </ul>
+            <ul>
+                <li><a href="construct/index.html">封号查询</a></li>
+                <li><a href="construct/index.html">体验服务申请</a></li>
+                <li><a href="construct/index.html">拂去其状态查询</a></li>
+                <li><a href="construct/index.html">裁决之镰</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="construct/index.html">个人资料</a></li>
+                <li><a href="construct/index.html">英雄与皮肤</a></li>
+                <li><a href="construct/index.html">战绩历史</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--隐藏部分end-->
+    <!--导航部分结束-->
+    <!--banner部分开始-->
+    <div class="banner w">
+        <div class="fontcrazy">
+            2016战斗之夜
+            <p>战斗之夜，三天狂欢无界限</p>
+        </div>
+        <a class="details" id="havcursor">
+            查看详情
+        </a>
+        <div class="gamever">
+            <p>当前游戏版本：<span>Ver 6.17</span></p>
+            <a href="#">版本详情</a>
+        </div>
+        <div class="download">
+            <a class="downgame" id="loginBtn" href="javascript:;"></a>
+            <a class="freshman publica" href="#">
+                <i></i>
+                <p>新手礼包</p>
+                <span>新手任务好礼</span>
+            </a>
+            <a class="views publica" href="#">
+                <i></i>
+                <p>视频中心</p>
+                <span>最新最全视频</span>
+            </a>
+            <a class="events publica" href="#">
+                <i></i>
+                <p>赛事中心</p>
+                <span>权威赛事资讯</span>
+            </a>
+            <a class="gameifo publica" href="#">
+                <i></i>
+                <p>游戏资料</p>
+                <span>海量英雄资料</span>
+            </a>
+            <a class="usenter publica" href="#">
+                <i></i>
+                <p>个人中心</p>
+                <span>个人权威资料</span>
+            </a>
+            <div class="login">
+                <div class="picus">
+                </div>
+                <div class="loginfont">
+                    <p class="p1">亲爱的召唤师请您,欢迎<a id="loginApi" href="#">登录</a></p>
+                    <p class="p2"><span>登录后查看自己的英雄联盟游戏信息，包括</span> <br>
+                        召唤师等级、段位信息、游戏胜场数、账户信息、声望值 等。</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--banner部分结束-->
+    <!--登陆部分start-->
+    <div class="loginbar" id="loginbar">
+        <div id="removebox">
+            <div class="closebaner" id="closebaner"></div>
+        </div>
+        <div class="fontqiuck">
+            <p class="dirp">帐号密码登录 </p>
+            <p>推荐使用<a href="#">快速安全登录</a>，防止盗号。</p>
+            <span id="tip"></span>
+        </div>
+        <div class="quickcontent">
+            <input type="text" id="username" placeholder="支持QQ号/邮箱号/手机号/登陆">
+            <input type="password" id="pwd" placeholder="密码">
+            <input type="submit" id="sub">
+            <div id="clearContent" href="javascript:;">
+                <a href="#"></a>
+            </div>
+            <div id="clearPwd" href="javascript:;">
+                <a href="#"></a>
+            </div>
+        </div>
+        <div class="quickabox">
+            <a class="quicka" href="#">忘记密码？</a>
+            <a class="quicka" href="form最终版/index.html">注册新账号</a>
+            <a class="quicka noborderringht" href="#">意见反馈</a>
+        </div>
+    </div>
+    <!--遮罩层mask-->
+    <div class="mask1" id="mask"></div>
+    <!--登陆部分end-->
+</div>
+<!--==============================================LOL第一部分-结束=====================================-->
+
+
+
+<!--==============================================LOL第二部分-开始=====================================-->
+<div class="mainer w clearfix">
+    <!--主体左部部分开始-->
+    <div class="left-mainer fl">
+        <!--左边的上边图片-->
+        <div class="pictures" id="pic">
+            <ul class="list">
+                <li><a href=""><img src="images/shen1.jpg" alt=""/></a></li>
+                <li><a href=""><img src="images/shen2.jpg" alt=""/></a></li>
+                <li><a href=""><img src="images/shen3.jpg" alt=""/></a></li>
+                <li><a href=""><img src="images/shen4.jpg" alt=""/></a></li>
+                <li><a href=""><img src="images/shen5.jpg" alt=""/></a></li>
+            </ul>
+        </div>
+        <!--左边下边的文字-->
+        <div class="text">
+            <ul class="fight" id="fight">
+                <li><span>战斗之夜</span></li>
+                <li><span>改名卡限时折扣</span></li>
+                <li><span>天下英雄第30期</span></li>
+                <li><span>定制款月饼冰淇淋</span></li>
+                <li><span>活出我们的精彩</span></li>
+            </ul>
+        </div>
+    </div>
+    <!--左部结束-->
+
+    <!--主体右部开始-->
+    <div class="right-mainer fr">
+        <!--右部顶部导航-->
+        <div class="top-nav" id="mainerNav">
+            <ul>
+                <li class="current">综合</li>
+                <li>公告</li>
+                <li>赛事</li>
+                <li>论坛</li>
+            </ul>
+            <a href="#">...</a>
+        </div>
+        <!--又不中间文本盒子-->
+        <div class="middle-news" id="middle-news">
+            <div class="news-content clearfix" style="display: block;">
+                <ul class="news-top" id="news1">
+                    <li class="first">五周年限定皮肤 电玩阿狸即将上线！</li>
+                    <li> <i>新闻 </i><a href="#">《创作吧！我要当主角》获奖名单 <s>08/31</s></a></li>
+                    <li><i>新闻</i><a href="#">五周年狂欢盛典门票随赠皮肤领取开启公告 <s>08/31</s></a></li>
+                    <li><i>新闻</i><a href="#">两季努力 IM创下职业联赛新纪录 <s>08/31</s></a></li>
+                    <li><i>新闻</i><a href="#">排位赛模式开启公告 <s>08/31</s></a></li>
+                    <li><i>新闻</i><a href="#">“冠军之刃 锐雯”皮肤更新 <s>08/31</s></a></li>
+                    <li><i>新闻</i><a href="#">2016电玩主题皮肤视频酷炫来袭 <s>08/30</s></a></li>
+                    <li><i> 新闻</i><a href="#">全大区排位赛模式关闭公告 <s>08/30</s></a></li>
+                </ul>
+            </div>
+            <div class="news-content clearfix" style="display: none;">
+                <ul class="news-top" id="news2">
+                    <li class="first">部分网通大区网络波动公告</li>
+                    <li><i>公告</i><a href="#">9月2日免费英雄更换公告<s>08/31</s></a></li>
+                    <li><i>公告</i><a href="#"> 五周年狂欢盛典门票随赠皮肤领取开启公告<s>08/31</s></a></li>
+                    <li><i>公告</i><a href="#">排位赛模式开启公告 <s>08/31</s></a></li>
+                    <li><i>公告</i><a href="#"> 全大区排位赛模式关闭公告<s>08/30</s></a></li>
+                    <li><i>公告</i><a href="#">全大区战区系统关闭<s>08/30</s></a></li>
+                    <li><i>公告</i><a href="#"> “任务：源计划”活动时间延长公告<s>08/30</s></a></li>
+                    <li><i>公告</i><a href="#">部分网通大区排位赛维护公告 <s>08/30</s></a></li>
+                </ul>
+            </div>
+            <div class="news-content clearfix" style="display: none;">
+                <ul class="news-top" id="news3">
+                    <li class="first">五周年狂欢盛典门票随赠皮肤领取开启公告</li>
+                    <li><i>赛事</i><a href="#">两季努力 IM创下职业联赛新纪录<s>08/31</s></a></li>
+                    <li><i>赛事</i><a href="#">五周年OPENDAY沙龙日：英雄们的沙龙<s>08/30</s></a></li>
+                    <li><i>赛事</i><a href="#">五周年OPENDAY观赛日：青春与回忆<s>08/29</s></a></li>
+                    <li><i>赛事</i><a href="#">两年折戟不忘初心 EDG再战世界舞台<s>08/29</s></a></li>
+                    <li><i>赛事</i><a href="#">2016赛季全球总决赛LPL代表队出炉<s>08/29</s></a></li>
+                    <li><i>赛事</i><a href="#">IM关键局惊天翻盘WE IM晋级全球总决赛<s>08/28</s></a></li>
+                    <li><i>赛事</i><a href="#">Snake：没有成王败寇，只有壮志未酬<s>08/28</s></a></li>
+                </ul>
+            </div>
+            <div class="news-content clearfix"  style="display: none;" >
+                <ul class="news-top" id="news4">
+                    <li class="first">部分网通大区网络波动公告</li>
+                    <li><i>论坛</i><a href="#"> 动态登陆界面更新，EDG夺冠进军S6<s>08/31</s></a></li>
+                    <li><i>论坛</i><a href="#">【自制】LOL高手各显其招花式玩球<s>08/31</s></a></li>
+                    <li><i>论坛</i><a href="#">【吃货头像】奶妈竟然在吃这个！<s>08/31</s></a></li>
+                    <li><i>论坛</i><a href="#"> 无敌特效优化，移动炮嘴获殊荣<s>08/31</s></a></li>
+                    <li><i>论坛</i><a href="#"> 论自动档的重要性,如何一秒摆脱飞机场<s>08/31</s></a></li>
+                    <li><i>论坛</i><a href="#"> 教育网大区紧急维护公告<s>08/27</s></a></li>
+                    <li><i>论坛</i><a href="#">【漫画】LOL庐山真面目？原来你是这样的<s>08/26</s></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--底部意见部分-->
+        <div class="bottom-advice">
+            <a href="#">【调研】留下你的意见，我们会做得更好！</a>
+        </div>
+        <!--主体右部结束    -->
+    </div>
+</div>
+<!--==============================================LOL第二部分-结束=====================================-->
+
+
+
+<!--==============================================LOL第三部分-开始=====================================-->
+<div class="w lyjMain clearfix">
+    <!--首页中部主要内容-视频部分-的左边部分-->
+    <div class="home-mod-l">
+
+        <!--视频中心 S-->
+        <div class="home-mod home-video">
+            <div class="hd">
+                <h2 class="home-title home-video-title"><i class="icon-video"></i>视频中心</h2>
+                <a href="#" onclick="" target="_blank"
+                   class="txt-more">进入视频中心</a>
+                <a class="txt-more" href="#"
+                   onclick="" target="_blank"><i class="icon-submit"></i>我要投稿</a>
+            </div>
+            <div class="bd">
+                <div class="tab video-tab">
+                    <ul id="Jvideo" class="tab-nav video-nav">
+                        <li rel="_n1" class="current">最新视频</li>
+                        <li rel="_n2" >解说视频</li>
+                        <li rel="_n3" >周免英雄</li>
+                        <li rel="_n4" >赛事视频</li>
+                        <li rel="_n5" >趣味锦集</li>
+                        <li rel="_n6" >官方视频</li>
+                    </ul>
+                </div>
+                <div class="contentVideo" id="contentVideo">
+                    <ul id="Jvideo_n1" data-id="2" class="clearfix v-list v-mod-list v-star-list" style="display:block">
+                    </ul>
+                    <ul id="Jvideo_n2" data-id="3" class="clearfix v-list v-mod-list v-star-list">
+                    </ul>
+                    <ul id="Jvideo_n3" data-id="5" class="clearfix v-list v-mod-list v-star-list">
+                    </ul>
+                    <ul id="Jvideo_n4" data-id="4" class="clearfix v-list v-mod-list v-star-list">
+                    </ul>
+                    <ul id="Jvideo_n5" data-id="6" class="clearfix v-list v-mod-list v-star-list">
+                    </ul>
+                    <ul id="Jvideo_n6" data-id="7" class="clearfix v-list v-mod-list v-star-list">
+                        <!--     <li>
+                                 <a class="v-link" href="#">
+                                     <img src="images/videoImg-2.jpg" alt="">
+                                     <span class="shadow1"></span>
+                                 <span class="v-meta">
+                                     <!--<span class="v-author">枪炮玫瑰</span>-->
+                                     <!--<span class="v-time">08:10</span>-->
+                                 <!--</span>-->
+                                     <!--<i class="icon-v"></i>-->
+                                 <!--</a>-->
+                                 <!--<h5 class="v-name"><a href="#">世界顶级忙增集锦这一脚让你知道什么是大神</a></h5>-->
+                             <!--</li>&ndash;&gt;-->
+                    </ul>
+                </div>
+                <a id="J_videoMore" class="video-more-link" href="javascript:void(0)">再显示<em>8</em>个视频</a>
+                <a id="J_videoInner" class="video-more-link" href="#"
+                   onclick="pgvSendClick({hottag:'main.video.btn.goInner2'})" target="_blank" style="display: none">进入视频中心查看更多</a>
+            </div>
+        </div>
+        <!--视频中心 End-->
+    </div>
+
+    <!--首页中部主要内容的-视频部分-右边部分-->
+    <div class="home-mod-r">
+        <!--英雄/皮肤 S-->
+        <div class="home-mod home-hero">
+            <div class="hd">
+                <h2 class="home-title home-hero-title"><i class="icon-hero"></i>英雄/皮肤</h2>
+                <a href="#" target="_blank" class="txt-more">我的英雄与皮肤</a>
+                <a href="#" target="_blank" class="txt-more">全部英雄</a>
+            </div>
+            <div class="bd">
+                <div class="tab hero-tab">
+                    <ul id="J_heroTab" class="tab-nav hero-nav">
+                        <li class="current">周免英雄</li>
+                        <li>最新英雄</li>
+                        <li>最新皮肤</li>
+                    </ul>
+                </div>
+                <div id="hero-tab-content">
+                    <div class="hero-content hero-free" style="display: block">
+                        <div id="J_freeList" class="free-list clearfix">
+
+                        </div>
+                        <div id="J_freeDate" class="free-time">免费时间：2016-09-02 至 2016-09-09</div>
+                    </div>
+                    <div class="hero-content hero-new" style="display: none">
+                        <div id="J_heroNew" class="hero-new-list clearfix">
+                        </div>
+                    </div>
+                    <div class="hero-content hero-skin" style="display: none">
+                        <div id="J_skinNew" class="hero-new-list hero-skin-list clearfix">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--英雄/皮肤 Eed-->
+        <!--快速入口 Start-->
+        <div class="home-mod home-quick">
+            <div class="hd">
+                <h2 class="home-title home-quick-title"><i class="icon-quick"></i>快速入口</h2>
+            </div>
+            <div class="bd">
+                <div class="home-quick-content" id="home-quick-content">
+                    <a href="#" target="_blank"><i
+                            style="background: url(images/public-spr.png) no-repeat -280px -40px"></i>点亮图标</a>
+                    <a href="#" target="_blank"><i
+                            style="background: url(images/public-spr.png) no-repeat -320px -40px"></i>声望系统</a>
+                    <a href="#" target="_blank"><i
+                            style="background: url(images/public-spr.png) no-repeat -360px -40px"></i>CDK兑换</a>
+                    <a href="#" target="_blank"><i
+                            style="background: url(images/public-spr.png) no-repeat -120px -40px"></i>游戏资料</a>
+                    <a href="#" target="_blank"><i
+                            style="background: url(images/public-spr.png) no-repeat -400px -40px"></i>官方微博</a>
+                    <a href="#" target="_blank"><i
+                            style="background: url(images/public-spr.png) no-repeat -440px -40px"></i>领奖中心</a>
+                    <a href="#" target="_blank"><i
+                            style="background: url(images/public-spr.png) no-repeat -480px -40px"></i>玩家论坛</a>
+                    <a href="#" target="_blank"><i
+                            style="background: url(images/public-spr.png) no-repeat -520px -40px"></i>在线客服</a>
+                </div>
+            </div>
+        </div>
+        <!--快速入口 E-->
+
+    </div>
+</div>
+<!--==============================================LOL第三部分-结束=====================================-->
+
+
+
+<!--==============================================LOL第四部分-开始=====================================-->
+<div class="box-l w">
+    <!--赛事中心 S-->
+    <div class="match-center-l fl">
+        <div class="match-title">
+            <div class="match-logo fl">
+                <i></i>
+
+                <h2>赛事中心</h2>
+            </div>
+            <div class="match-inter fr">
+                <a id="matchCenter" href="">进入赛事中心</a>
+            </div>
+        </div>
+        <!--tab栏 S-->
+        <div class="match-tab">
+            <ul id="matchTab">
+                <li><a href="#">职业联赛</a></li>
+                <li><a href="#">甲级职业联赛</a></li>
+                <li><a href="#">德玛西亚杯</a></li>
+                <li><a href="#">高校联赛</a></li>
+                <li><a href="#">城市英雄争霸赛</a></li>
+                <li><a href="#">王者峡谷</a></li>
+            </ul>
+        </div>
+        <!--tab栏 E-->
+
+
+        <div class="match-content">
+            <!--tab栏下的图片 S-->
+            <div class="picpart-zw fl">
+                <a id="matchPic" class="pic-zw" href="#"></a>
+                <a class="btn-zw" href="#">进入赛事页面</a>
+            </div>
+            <!--tab栏下的图片 E-->
+            <!--tab栏下的新闻 S-->
+            <div id="allNewsPart">
+                <div class="newspart-zw fr">
+                    <div class="mt-zw">
+                        <h2><a class="title-zw" href="#">2016英雄联盟职业联赛夏季赛</a></h2>
+
+                        <p class="time-zw">时间：2016-05-26-2016-08-07</p>
+
+                        <p class="place-zw">地点：上海虹桥天地演艺中心3F（多功能厅）</p>
+
+                        <p class="num-zw">4200</p>
+
+                        <p class="attention-zw">万人关注</p>
+                    </div>
+                    <div class="mc-zw">
+                        <ul>
+                            <li><a href="#">两季努力 IM创下职业联赛新纪录</a>
+
+                                <p class="fr">08/31</p></li>
+                            <li><a href="#">五周年OPENDAY沙龙日：英雄们的沙龙</a>
+
+                                <p class="fr">08/30</p></li>
+                            <li><a href="#">五周年OPENDAY观赛日：青春与回忆</a>
+
+                                <p class="fr">08/30</p></li>
+                            <li><a href="#">两年折戟不忘初心 EDG再战世界舞台</a>
+
+                                <p class="fr">08/29</p></li>
+                            <li><a href="#">2016赛季全球总决赛LPL代表队出炉</a>
+
+                                <p class="fr">08/29</p></li>
+                            <li><a href="#">IM关键局惊天翻盘WE IM晋级全球总决赛</a>
+
+                                <p class="fr">08/28</p></li>
+                        </ul>
+                    </div>
+                    <!--tab栏下的新闻 S-->
+                </div>
+                <div class="newspart-zw fr" style="display:none">
+                    <div class="mt-zw">
+                        <h2><a class="title-zw" href="#">
+                            英雄联盟甲级职业联赛夏季赛</a></h2>
+
+                        <p class="time-zw">时间：2016-05-23-2016-08-03</p>
+
+                        <p class="place-zw">地点：上海闸北</p>
+
+                        <p class="num-zw">800</p>
+
+                        <p class="attention-zw">万人关注</p>
+                    </div>
+                    <div class="mc-zw">
+                        <ul>
+                            <li><a href="#">NBY顺利进军LPL YM难逃BO5魔咒憾负</a>
+
+                                <p class="fr">08/09</p></li>
+                            <li><a href="#">RVG惨遭降级命运 YM完胜皇族挺进决赛</a>
+
+                                <p class="fr">08/09</p></li>
+                            <li><a href="#">皇族技高一筹 力克LD挺进下轮</a>
+
+                                <p class="fr">08/08</p></li>
+                            <li><a href="#">WYD完胜对手成功保级 TCS告别LSPL</a>
+
+                                <p class="fr">08/07</p></li>
+                            <li><a href="#">2016LSPL夏季赛季后赛今日打响！</a>
+
+                                <p class="fr">08/06</p></li>
+                            <li><a href="#">2016LSPL季后赛巡礼：Doinb再度冲击LPL</a>
+
+                                <p class="fr">08/05</p></li>
+                        </ul>
+                    </div>
+                    <!--tab栏下的新闻 S-->
+                </div>
+                <div class="newspart-zw fr" style="display:none">
+                    <div class="mt-zw">
+                        <h2><a class="title-zw" href="#">
+                            2016年德玛西亚杯</a></h2>
+
+                        <p class="time-zw">时间：2016-06-29-2016-07-03</p>
+
+                        <p class="place-zw">地点：苏州体育中心</p>
+
+                        <p class="num-zw">700</p>
+
+                        <p class="attention-zw">万人关注</p>
+                    </div>
+                    <div class="mc-zw">
+                        <ul>
+                            <li><a href="#">SofM遇到inSec Mlxg与Condi再掀大龙争夺战</a>
+
+                                <p class="fr">07/02</p></li>
+                            <li><a href="#">德杯八强出炉 LSPL两队晋级淘汰赛</a>
+
+                                <p class="fr">07/02</p></li>
+                            <li><a href="#">德杯发展史：从LPL预热赛到电竞盛宴</a>
+
+                                <p class="fr">07/02</p></li>
+                            <li><a href="#">德杯首日LD成黑马 连胜GT与SAT</a>
+
+                                <p class="fr">07/02</p></li>
+                            <li><a href="#">德杯那些事儿：解说席上的“好声音”</a>
+
+                                <p class="fr">07/26</p></li>
+                            <li><a href="#">6月29日11:30德杯苏州站正式开赛！</a>
+
+                                <p class="fr">08/05</p></li>
+                        </ul>
+                    </div>
+                    <!--tab栏下的新闻 S-->
+                </div>
+                <div class="newspart-zw fr" style="display:none">
+                    <div class="mt-zw">
+                        <h2><a class="title-zw" href="#">
+                            第四届全国高校联赛</a></h2>
+
+                        <p class="time-zw">时间：2015-10-24-2016-05-30</p>
+
+                        <p class="place-zw">地点：线下</p>
+
+                        <p class="num-zw">300</p>
+
+                        <p class="attention-zw">万人关注</p>
+                    </div>
+                    <div class="mc-zw">
+                        <ul>
+                            <li><a href="#">英雄联盟用户调查问卷</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">全国高校联赛区域决赛即将火热开战</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">电力学院豪取连胜 上海区域联赛首周次日综述</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">成都区域联赛首周综述：川音表现出色</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">长沙学院携手湖南工业领跑本周区域联赛</a>
+
+                                <p class="fr">04/03</p></li>
+                            <li><a href="#">同济大学折戟主场 上海区域联赛首周战报</a>
+
+                                <p class="fr">08/05</p></li>
+                        </ul>
+                    </div>
+                    <!--tab栏下的新闻 S-->
+                </div>
+                <div class="newspart-zw fr" style="display:none">
+                    <div class="mt-zw">
+                        <h2><a class="title-zw" href="#">
+                            第十一届城市英雄争霸赛</a></h2>
+
+                        <p class="time-zw">时间：2016-07-30-2016-11-20</p>
+
+                        <p class="place-zw">地点：线下</p>
+
+                        <p class="num-zw">500</p>
+
+                        <p class="attention-zw">万人关注</p>
+                    </div>
+                    <div class="mc-zw">
+                        <ul>
+                            <li><a href="#">英雄联盟用户调查问卷</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">战火席卷全国 城市英雄争霸赛火热进行</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">有梦想你就来 城市英雄争霸赛微访谈回顾</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">【云南】城市英雄争霸赛开赛仪式圆满结束</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">【江苏】城市英雄争霸赛今日盛大起航</a>
+
+                                <p class="fr">04/03</p></li>
+                            <li><a href="#">第十一届LOL城市英雄争霸赛参赛攻略</a>
+
+                                <p class="fr">08/05</p></li>
+                        </ul>
+                    </div>
+                    <!--tab栏下的新闻 S-->
+                </div>
+                <div class="newspart-zw fr" style="display:none">
+                    <div class="mt-zw">
+                        <h2><a class="title-zw" href="#">
+                            王者峡谷</a></h2>
+
+                        <p class="time-zw">时间：2015-02-28-2017-02-28</p>
+
+                        <p class="place-zw">地点：线上</p>
+
+                        <p class="num-zw">100</p>
+
+                        <p class="attention-zw">万人关注</p>
+                    </div>
+                    <div class="mc-zw">
+                        <ul>
+                            <li><a href="#">《王者峡谷》全民线上海选赛报名开启</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">王者峡谷线上冠军锦标赛奖励发放公告</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">线上冠军锦标赛第9轮开启</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">线上冠军锦标赛第8轮开启 赛程即将结束</a>
+
+                                <p class="fr">11/06</p></li>
+                            <li><a href="#">线上冠军锦标赛第7轮开启</a>
+
+                                <p class="fr">04/03</p></li>
+                            <li><a href="#">线上冠军锦标赛第6轮及赛程答疑</a>
+
+                                <p class="fr">08/05</p></li>
+                        </ul>
+                    </div>
+                    <!--tab栏下的新闻 S-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--赛事中心 E-->
+    <!--活动中心 S-->
+    <div class="active-center-l fr">
+        <div class="active-title">
+            <div class="active-logo fl">
+                <i></i>
+
+                <h3>活动中心</h3>
+            </div>
+            <a class="active-inner fr" href="#">进入活动中心</a>
+        </div>
+        <div class="active-news-zw">
+            <div id="activePicBox">
+                <div id="activePic" class="active-pic"></div>
+                <div id="maskZw"></div>
+                <div id="maskTop">
+                    <h5 class="act-tit2">活动简介</h5>
+
+                    <p class="act-tx">参与“任务：源计<br/>划”活动，免费领源<br/>计划系列头像，更有<br/>期限源计划皮肤好礼<br/>等你来拿！</p>
+                    <span class="act-lnk">查看活动详情</span>
+                </div>
+            </div>
+
+            <div class="news">
+                <ul id="newsBox">
+                    <li class="greenli">
+                        <a title="老兵不死，只是凋零。统治战场正式退役" class="getZw" href="#">
+                            <em>老兵不死，只是凋零。统治战场正式退役</em>
+                            <span>进行中</span>
+                        </a>
+                    </li>
+                    <li class="greenli">
+                        <a title="英雄联盟全新混音专辑--《战歌》" class="getZw" href="#">
+                            <em>英雄联盟全新混音专辑--《战歌》</em>
+                            <span>进行中</span>
+                        </a>
+                    </li>
+                    <li class="greenli">
+                        <a title="五杀乐队头像领取" class="getZw" href="#">
+                            <em>五杀乐队头像领取</em>
+                            <span>进行中</span>
+                        </a>
+                    </li>
+                    <li class="greenli">
+                        <a title="全国高校排行榜" class="getZw" href="#">
+                            <em>全国高校排行榜</em>
+                            <span>进行中</span>
+                        </a>
+                    </li>
+                    <li class="greyli">
+                        <a title="任务：源计划" class="getZw" href="#">
+                            <em>任务：源计划</em>
+                            <span class="grey-span">已结束</span>
+                        </a>
+                    </li>
+                    <li class="greyli">
+                        <a title="五周年许愿墙" class="getZw" href="#">
+                            <em>五周年许愿墙</em>
+                            <span class="grey-span">已结束</span>
+                        </a>
+                    </li>
+                    <li class="greyli">
+                        <a title="枢纽攻防大作战" class="getZw" href="#">
+                            <em>枢纽攻防大作战</em>
+                            <span class="grey-span">已结束</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a href="#" class="active-qt">
+            <img src="images/pic-qt.jpg" alt=""/>
+        </a>
+    </div>
+    <!--活动中心 E-->
+</div>
+<!--==============================================LOL第四部分-结束=====================================-->
+
+
+
+<!--==============================================LOL第五部分-开始=====================================-->
+
+<!--=================  5   客服专区serve部分 start================================-->
+<div class="serve">
+    <div class="w">
+        <div class="ser_top_l">
+            <h2><i class="ser_call"></i>&nbsp;客服专区</h2>
+            <div class="qqOnlineServe fr">
+                <input type="button" class="ser_btn " onclick="javascrtpt:window.location.href='construct/index.html'"value="QQ在线客服"/>
+                <a href="construct/index.html">...</a>
+            </div>
+        </div>
+        <div class="ser_bd">
+            <div class="ser_tab">
+                <ul class="ser_tab_left fl" id="ser_tab_left">
+                    <li class="current">自助服务</li>
+                    <li class="">常见问题列表</li>
+                </ul>
+                <div class="ser_tab_right fr">
+                    <a href="construct/index.html">登录相关 </a>
+                    <a href="construct/index.html">游戏相关 </a>
+                    <a href="construct/index.html">电脑及其他问题</a>
+                </div>
+            </div>
+            <ul class="ser_tab_content" id="ser_tab_content">
+                <li id="ser_n1" class="current">
+                    <ul class="ser_n1_inner">
+                        <li><a href="#">登录相关问题 </a></li>
+                        <li><a href="#">电脑及其他问题 </a></li>
+                        <li><a href="#">LOL游戏崩溃提示：您中途退出游戏，请重新连接 </a></li>
+                        <li><a href="#">英雄联盟对电脑配置有什么要求？ </a></li>
+                        <li><a href="#">防沉迷系统限制以及信息修改的说明 </a></li>
+                        <li><a href="#">游戏过程中崩溃，弹出BUGSPLAT（ERROR）报错界面</a></li>
+                        <li><a href="#">拉起游戏时，黑屏无响应（选择英雄后出现的黑屏） </a></li>
+                        <li><a href="#">提示站点使用已过期的证书或无效证书的问题 </a></li>
+                        <li><a href="#">拉起游戏时提示：连接失败，无法连接服务器 </a></li>
+                        <li><a href="#">登录时，提示：服务器正忙，请稍后再试（登录</a></li>
+                    </ul>
+                </li>
+                <li id="ser_n2" class="">
+                    <ul class="ser_n1_inner">
+                        <li><a href="#">封号查询</a></li>
+                        <li><a href="#">经验异常减少恢复</a></li>
+                        <li><a href="#">符文购买异常恢复</a></li>
+                        <li><a href="#">CDKEY兑换</a></li>
+                        <li><a href="#">购买/赠送未到账补送</a></li>
+                        <li><a href="#">误充值申诉</a></li>
+                        <li><a href="#">图标点亮/熄灭</a></li>
+                        <li><a href="#">可注册服务器查询</a></li>
+                        <li><a href="#">商城消费流水</a></li>
+                        <li><a href="#">全服角色查询</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--=================  5   客服专区serve部分 end================================-->
+
+<!--================   公共foot,页脚,部分strt ===================================== =-->
+<div class="foot">
+    <div class="w">
+        <div class="foot_friend clearfix">
+            <div class="ff_normal  fl">
+                <i class="foot_weixin fl"></i>
+
+                <p class="fb leftem font_f">英雄，我们在这里等你</p><br/>
+
+                <p class="leftem font_f">扫描下载《英雄联盟》官方APP，<br>获取最新最全的官方动态</p>
+            </div>
+            <div class="ff_normal fl">
+                <p class="fb"> 温馨提示：本游戏适合18岁(含)以上玩家娱乐</p>
+                <ul class="foot-ul">
+                    <li>抵制不良游戏</li>
+                    <li>拒绝盗版游戏</li>
+                    <li>注意自我保护</li>
+                    <li>谨防受骗上当</li>
+                    <li>适度游戏益脑</li>
+                    <li>沉迷游戏伤身</li>
+                    <li>合理安排时间</li>
+                    <li>享受健康生活</li>
+                </ul>
+            </div>
+
+            <div class="foot_lnkBox fr"  id="foot_lnkBox">
+                <div id="FooterLNK" class="footer_lnk fr">
+                    <span class="fl">英雄联盟 官方合作媒体</span>
+                    <i class="fl ico-arrowdown"></i>
+                </div>
+                <div id="foot_lnkMtBox">
+                    <div class="foot_lnkMt"  id="foot_lnkMt">
+                        <ul id="lnkMt_content">
+                            <li><a href="#">英雄联盟大咖</a></li>
+                            <li><a href="#">黑马程序员</a></li>
+                            <li><a href="#">传智播客</a></li>
+                            <li><a href="#">电玩巴士</a></li>
+                            <li><a href="#">爱拍游戏</a></li>
+                            <li><a href="#">掌游宝</a></li>
+                            <li><a href="#">玩加赛事</a></li>
+                            <li><a href="#">太平洋</a></li>
+                            <li><a href="#">英雄联盟大咖</a></li>
+                            <li><a href="#">黑马程序员</a></li>
+                            <li><a href="#">传智播客</a></li>
+                            <li><a href="#">电玩巴士</a></li>
+                            <li><a href="#">太平洋</a></li>
+                            <li><a href="#">英雄联盟大咖</a></li>
+                            <li><a href="#">黑马程序员</a></li>
+                            <li><a href="#">传智播客</a></li>
+                            <li><a href="#">电玩巴士</a></li>
+                            <li><a href="#">黑马程序员</a></li>
+                            <li><a href="#">传智播客</a></li>
+                            <li><a href="#">电玩巴士</a></li>
+                            <li><a href="#">黑马程序员</a></li>
+                            <li><a href="#">传智播客</a></li>
+                            <li><a href="#">电玩巴士</a></li>
+                        </ul>
+                        <!--滚动条-->
+                        <div id="ser_scroll" class="ser_scroll">
+                            <div class="ser_bar" id="ser_bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot_f">
+            <a class="fl foot_logo" title="腾讯互动娱乐" target="_blank" href="#"></a>
+            <ul class="fr ">
+                <li><a href="#">&nbsp;腾讯互动娱乐</a> |</li>
+                <li><a href="#">&nbsp;服务条款</a> |</li>
+                <li><a href="#">&nbsp;广告服务</a> |</li>
+                <li><a href="#">&nbsp;腾讯游戏招聘</a> |</li>
+                <li><a href="#">&nbsp;腾讯游戏客服</a> |</li>
+                <li><a href="#">&nbsp;游戏活动</a> |</li>
+                <li><a href="#">&nbsp;游戏地图</a> |</li>
+                <li><a href="#">&nbsp;商务合作</a> |</li>
+                <li><a href="#">&nbsp;腾讯网</a> |</li>
+                <li><a href="#">&nbsp;网站导航</a> |</li>
+                <li><a href="#">&nbsp;腾讯公司版权所有</a> |</li>
+                <li><a href="#">&nbsp;COPYRIGHT © 1998 - 2016 TENCENT. ALL RIGHTS RESERVED.</a> |</li>
+                <li><a href="#">&nbsp;© 2012 Riot Games, Inc. ALL RIGHTS RESERVED.</a> |</li>
+                <li><a href="#">&nbsp;文网进字[2011] 004号 & ISBN 978-7-89989-145-2</a> |</li>
+                <li><a href="#">&nbsp;新出网证（粤）字010号</a> |</li>
+                <li><a href="#">&nbsp;粤网文[2014]0633-233号</a> |</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--================  公共foot,页脚，部分strt  ======================================-->
+<!--=========小火箭，piu ~ ============-->
+<div id="rocket"><img src="images/rocket.png"/></div>
+<!--=========小火箭，piu ~ ===========-->
+<!--==============================================LOL第五部分-结束=====================================-->
+</body>
+</html>

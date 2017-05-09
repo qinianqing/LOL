@@ -1,0 +1,671 @@
+.lyjVideoHead{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 20px;
+    background: url(../images/videoPage/lyjVideoHead.png) no-repeat top center;
+}
+
+/*视频页面小导航*/
+.videoNavi{
+    padding-top: 28px;
+    height: 65px;
+    font-size: 16px;
+}
+.widescreen {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: visible;
+}
+.commico-crumbs {
+    margin-right: 5px;
+    width: 16px;
+    height: 14px;
+    vertical-align: middle;
+    background-position: -831px 0;
+}
+.commspr {
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url(../images/videoPage/videoSprit.png);
+}
+.commico-rrow {
+    margin: 0 8px;
+    width: 8px;
+    height: 9px;
+    vertical-align: middle;
+    background-position: -831px -17px;
+}
+.section {
+    margin-bottom: 50px;
+}
+.v-hd {
+    margin-bottom: 15px;
+    /*height: 40px;*/
+}
+.video-detail .v-hd .title {
+    width: 85%;
+    height: 40px;
+    overflow: hidden;
+}
+.v-hd .title {
+    float: left;
+    font-size: 26px;
+    color: #333;
+    line-height: 40px;
+    margin-right: 40px;
+    font-weight: normal;
+}
+.video-detail .v-date {
+    float: right;
+    line-height: 40px;
+    font-size: 20px;
+    color: #989898;
+}
+.bd {
+    overflow: hidden;
+    zoom: 1;
+}
+.widescreen .v-detail-c {
+    width: 860px;
+}
+.v-detail-c {
+    float: left;
+    width: 640px;
+    height: 470px;
+    background-color: #000;
+}
+#J_dV {
+    position: relative;
+}
+embed {
+    width: 640px;
+    height: 470px;
+    /*vertical-align: -webkit-baseline-middle;*/
+}
+.widescreen .v-detail-c {
+    width: 860px;
+}
+.v-detail-c {
+    float: left;
+    width: 640px;
+    height: 470px;
+    background-color: #000;
+}
+.widescreen .v-detail-c embed, .widescreen .v-detail-c object {
+    width: 860px;
+}
+.mask {
+    position: absolute;
+    z-index: 8;
+    top: 50px;
+    color: #fff;
+    text-align: center;
+    width: 860px;
+    height: 535px;
+    overflow: hidden;
+}
+#JPlayTips {
+    position: absolute;
+    z-index: 9;
+    top: 25px;
+    left: 170px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 550px;
+    height: 330px;
+    overflow: hidden;
+    display: none;
+}
+section a {
+    color: #333;
+}
+.btn-extend {
+    float: left;
+    width: 15px;
+    height: 470px;
+    background-color: #333;
+}
+.v-side-info {
+    float: left;
+    position: relative;
+    width: 325px;
+    height: 470px;
+    overflow: hidden;
+    background-color: #242424;
+}
+.v-side-info-top{
+    width: 325px;
+    height: 146px;
+    background: url(../images/videoPage/videoScrollTop.bmp);
+}
+/*更多相关视频*/
+.v-side-info-middle{
+    padding-top: 15px;
+    width: 325px;
+}
+.v-side-info-middle h3{
+
+    margin-bottom: 15px;
+    color: rgb(142, 142, 142);
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0px 10px;
+}
+
+.v-side-info-bottom{
+    position: relative;
+    width: 325px;
+    height: 292px;
+    overflow: hidden;
+}
+/*滚动条*/
+.v-side-info-bottom-scroll {
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #383838;
+}
+.v-side-info-bottom-bar {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00A483;
+    border-radius:  10px;
+    cursor: pointer;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+.widescreen .v-comment {
+    width: 840px;
+}
+.v-comment {
+    float: left;
+    width: 640px;
+}
+.v-rank {
+    float: right;
+    width: 320px;
+}
+/*喜欢分享部分*/
+.icon-love {
+    display: inline-block;
+    vertical-align: -3px;
+    margin-right: 7px;
+    width: 20px;
+    height: 20px;
+    background-position: -109px 0;
+}
+.share {
+    float: left;
+    height: 24px;
+    margin-top: 13px;
+}
+.video-detail .ft .v-play {
+    float: right;
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 11px;
+    font-weight: bold;
+    color: #9e9e9e;
+}
+.video-detail .ft .v-play em {
+    color: #555;
+    margin-right: 5px;
+}
+
+
+.v-side-info {
+    float: left;
+    position: relative;
+    width: 325px;
+    height: 470px;
+    background-color: rgb(36, 36, 36);
+    overflow: hidden;
+}
+.v-side-author {
+    margin-bottom: 15px;
+    background-color: rgb(27, 27, 27);
+    overflow: hidden;
+    padding: 15px 10px;
+}
+.v-side-list-hd {
+    margin-bottom: 15px;
+    color: rgb(142, 142, 142);
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0px 10px;
+}
+.v-side-new-list {
+    height: 258px;
+    overflow-y: auto;
+    margin-left: 0px;
+}
+
+
+/*左侧栏*/
+.fix-nav {
+    position: fixed;
+    z-index: 999;
+    visibility: visible;
+    left: 50%;
+    margin-left: -670px;
+    bottom: 150px;
+    cursor: pointer;
+    width: 48px;
+    height: 385px;
+    margin-right: 45%;
+}
+.fix-nav a {
+    display: block;
+    width: 47px;
+    height: 47px;
+    line-height: 47px;
+    margin-bottom: 7px;
+    text-align: center;
+    background-color: #ebebeb;
+    border: 1px solid #d5d5d5;
+    border-radius: 50%;
+    color: #4e4e4e;
+}
+.icon-up {
+    display: block;
+    width: 20px;
+    height: 11px;
+    margin: 17px auto 0;
+    background-position: -253px -44px;
+}
+/*评论区*/
+.video-comment-left{
+    margin-top: 50px;
+    float: left;
+    width: 840px;
+    height: 600px;
+}
+/*写回复的窗口*/
+.video-replay{
+    /*height: 230px;*/
+    margin-bottom: 20px;
+}
+.replayTop{
+    background-color: #F2F2F2;
+    height: 26px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.replayButtonDiv{
+    /*width: 820px;*/
+    height: 50px;
+}
+.replayArea{
+    /*width: 836px;*/
+    /*padding-left: 1px;*/
+}
+#videoreplayArea {
+    width: 99%;
+    /*height: 82px;*/
+    outline: none;
+    resize: none;
+    border: 1px solid #CCCCCC;
+}
+#replayButton{
+    float: right;
+    width: 107px;
+    height: 36px;
+    background-image: url(../images/videoPage/replayButton.png);
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+}
+/*最新评论*/
+.video-newReplay{
+    width: 840px;
+
+}
+.newReplayTab{
+    color: #00ab88;
+    font-weight: bold;
+    border-bottom: 1px solid #CCCCCC;
+    height: 32px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.newReplayTab span{
+    color: #333333;
+    font-size: 18px;
+}
+/*回复的内容*/
+.newReplayContent div{
+    width: 842px;
+    height: 105px;
+    border-bottom: 1px dotted #F2F2F2;
+}
+.newReplayContent{
+    height: 800px;
+    overflow: hidden;
+}
+
+.newReplayContent .videoli1{
+    height: 105px;
+    background: url("../images/videoPage/videoReplay0.bmp") no-repeat top left;
+}
+.newReplayContent .videoli2{
+    background: url("../images/videoPage/videoReplay1.bmp") no-repeat;
+}
+.newReplayContent .videoli3{
+    background: url("../images/videoPage/videoReplay2.bmp") no-repeat;
+}
+.newReplayContent .videoli4{
+    background: url("../images/videoPage/videoReplay3.bmp") no-repeat;
+}
+/*新添加评论背景*/
+.addNewReplay{
+    position: relative;
+    background-image: url("../images/videoPage/videoReplayBg.png");
+}
+
+.video-comment-right{
+    margin-top: 50px;
+    float:right;
+}
+.video-comment-right{
+    padding-right: 20px;
+    height: 475px;
+    width: 355px;
+    background: url(../images/videoPage/videoRank.png) no-repeat;
+}
+
+/********/
+.addNewReplayP{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 50px;
+}
+/*============客服专区serve部分start===============*/
+
+.serve {
+    margin-top: 69px;
+    height: 337px;
+    background-color: #F7F8F8;
+    font-family: Microsoft Yahei,"微软雅黑";
+}
+.ser_top_l {
+    height: 34px;
+    width: 780px;
+    margin-bottom: 18px;
+}
+.ser_top_l h2{
+    float: left;
+    font-family: "黑体";
+    font-size: 25px;
+    line-height: 34px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.qqOnlineServe a {
+    display: inline-block;
+    font-size: 24px;
+    padding: 0 3px;
+}
+
+/*客服专区图标*/
+.ser_call {
+    float: left;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: url("../images/public-spr.png") -644px -45px no-repeat ;
+    vertical-align: middle;
+
+}
+.ser_btn {
+    /*float: right;*/
+    width: 103px;
+    height: 34px;
+    line-height: 34px;
+    background-color:#EFEFEF ;
+    border-radius: 17px;
+    color: #777777;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    cursor: pointer;
+}
+.ser_btn:hover{
+    color: #36AB87;
+    line-height: 30px;
+    border: 2px solid  #36AB87;
+}
+
+
+.ser_tab {
+    height: 36px;
+    width: 780px;
+    border-bottom: 4px solid #ebecec;
+}
+.ser_tab_left li{
+    float: left;
+    height: 36px;
+    width: 130px;
+    line-height: 36px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+}
+/*鼠标经过，当前样式*/
+.ser_tab_left li.current{
+    color: #36AB87;
+    font-weight: bold;
+    border-bottom: 4px solid #36AB87;
+}
+.ser_tab_right a {
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.ser_tab_right a:hover{
+    color: #36AB87;
+}
+/*tab切换内容区ul*/
+.ser_tab_content {
+    display: inline-block;
+    width: 780px;
+    height: 155px;
+    /*background-color: red;*/
+    padding: 20px 0;
+}
+
+.ser_tab_content .ser_n1_inner li{
+    display: inline-block;
+    width: 355px;
+    float: left;
+    overflow: hidden;
+}
+.ser_n1_inner li a {
+    font: normal 14px "微软雅黑";
+    line-height: 24px;
+}
+/*临时 隐藏*/
+#ser_tab_content li.current{
+    display: none;
+}
+/*===============客服专区serve部分end====================*/
+/*=====================底部页脚foot部分start=======================*/
+.foot {
+    height: 239px;
+    background-color: #F3F3F3;
+}
+.foot_friend {
+    height: 107px;
+    border-bottom: 3px solid #D0D0D0;
+}
+.foot_weixin{
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+    background:url("../images/footlogo.png") -264px 0 no-repeat;
+}
+.ff_normal{
+    margin-top: 30px;
+    width: 421px;
+}
+/*底部字体默认样式*/
+.foot .font_f{
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #A5A5A5;
+}
+
+.ff_normal .leftem{
+    display: inline-block;
+    margin-left: 20px;
+}
+.foot .fb {
+    font-weight: bold;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+}
+.foot-ul li{
+    display: inline;
+    padding-right: 10px;
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #A5A5A5;
+}
+/*/英雄联盟 官方合作媒体BOX*!/*/
+.foot_lnkBox{
+    width: 276px;
+    height: 34px;
+    border: 2px solid #E2E2E2;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 25px;
+    position: relative;
+}
+.footer_lnk {
+    width: 276px;
+    height: 34px;
+    border: 1px solid #CBCBCB;
+    cursor: pointer;
+}
+.footer_lnk span {
+    margin-top: 5px;
+    width: 250px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-right: 1px solid #DBDBDB;
+}
+/*隐藏的盒子*/
+#foot_lnkMtBox  {
+    height: 180px;
+    width: 274px;
+    /*display: inline-block;*/
+    /*display: none;*/
+    position: absolute;
+    top: -180px;
+    left: 0;
+    overflow: hidden;
+}
+.foot_lnkMt  {
+    display: inline-block;
+    width: 272px;
+    height: 176px;
+    border: 2px solid #E2E2E2;
+    background-color: #fff;
+    position: absolute;
+    top: 180px;
+    /*top: 35px;*/
+    /*left: 0;*/
+    /*display: none;*/
+    overflow: hidden;
+}
+.lnkMt_content li {
+    display: inline-block;
+    width: 100%;
+}
+
+/*滚动条*/
+.ser_scroll {
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #eee;
+}
+.ser_bar {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #36AB87;
+    border-radius:  5px;
+    cursor: pointer;
+}
+.ico-arrowdown {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 7px;
+    height: 6px;
+    background: url("../images/public-spr.png") -1233px -428px no-repeat;
+}
+
+
+
+/*页脚底部*/
+.foot_f {
+    padding-top: 22px;
+
+}
+.foot_f .foot_logo {
+    display: inline-block;
+    width: 264px;
+    height: 66px;
+    background:url("../images/footlogo.png") 0 0 no-repeat;
+}
+.foot_f ul {
+    display: inline-block;
+    width: 660px;
+}
+.foot_f ul li{
+    display: inline-block;
+    float: left;
+}
+
+#rocket {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 5px;
+    bottom: 200px;
+    display: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+#rocket img{
+    width: 70px;
+    height: 70px;
+}
+
+/*========================底部页脚foot部分end=========================*/
+.videoBottomPage{
+    width: 100%;
+    height: 578px;
+    background: url(../images/videoPage/videolyjBottom.png);
+}

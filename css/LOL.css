@@ -1,0 +1,1716 @@
+/*=============================================第一部分样式 - 开始=====================================*/
+
+/*header部分start*/
+.header {
+    height: 695px;
+    /*background-color: red;*/
+    background: url("../images/pic-inner-v6.jpg") no-repeat center 80px;
+}
+
+/*header-nav部分start*/
+
+.header-nav {
+    height: 80px;
+    background-color: #000000;
+    position: relative;
+
+}
+.header-box{
+    position: relative;
+}
+
+/*logo部分*/
+.logo {
+    display: inline-block;
+    width: 212px;
+    height: 114px;
+    margin-top: 7px;
+    background-color: red;
+    background: url(../images/public-spr.png) no-repeat -10px -173px;
+    float: left;
+    position: absolute;
+    z-index: 7;
+}
+
+/*nav导航部分*/
+.header-nav-ul {
+    /*position: absolute;*/
+    margin-left: 212px;
+    position: relative;
+
+}
+#moveimg{
+    position: absolute;
+    /*top:-10px;*/
+    left:220px;
+}
+
+.header-nav-ul li {
+    float: left;
+
+}
+
+.header-nav-ul a {
+    text-align: center;
+    display: inline-block;
+    width: 138px;
+    padding-top: 36px;
+    padding-bottom: 28px;
+    color: #E1E1E1;
+    font-size: 16px;
+}
+.header-nav-ul a:hover{
+    text-shadow: 2px 2px 8px #4ca6cd;
+    font-size: 20px;
+}
+
+.header-nav-ul a:hover {
+    color: #E1E1E1;
+}
+
+.header-nav-ul a span {
+    display: block;
+    color: #575757;
+    font-size: 10px;
+}
+
+.nocursor {
+    cursor: default;
+}
+
+/*隐藏部分start*/
+.hideul {
+    display: none;
+    width: 100%;
+    height: 221px;
+    background-color: rgba(0, 0, 0, 0.8);
+    /*position: relative;*/
+    position: absolute;
+    z-index: 6;
+    /*top: -41px;*/
+    color: white;
+    /*overflow: hidden;*/
+    /*margin-top: 0px;*/
+
+}
+
+.hideul ul {
+    text-align: center;
+    width: 102px;
+    float: left;
+    margin-left: 39px;
+    margin-top: 26px;
+
+}
+
+.hideul ul a {
+    color: #e1e1e1;
+}
+
+.hideul ul a:hover {
+    color: #16c2a2;
+}
+
+.hideul ul li {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.hideul .firul {
+    margin-left: 360px;
+}
+
+/*隐藏部分end*/
+
+/*header-nav部分end*/
+
+/*header-banner部分start*/
+
+.banner{
+    height: 500px;
+    padding-top: 115px;
+    /*background-color: darkgrey;*/
+    position: relative;
+}
+.fontcrazy {
+    font-size: 50px;
+    font-weight: 700;
+    color: #16E6CB;
+    text-shadow: -2px -2px 5px #000000;
+}
+
+.fontcrazy p {
+    color: white;
+    font-size: 16px;
+    line-height: 80px;
+}
+
+.header .details {
+    display: block;
+    width: 155px;
+    height: 36px;
+    border: 2px solid #05B896;
+    background-color: rgba(0, 0, 0, 0.6);
+    line-height: 36px;
+    text-align: center;
+    color: #05B896;
+    font-weight: 700;
+}
+.header .details:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+.header #havcursor{
+    cursor: pointer;
+}
+
+.details:hover {
+    color: #05B896;
+}
+
+.download {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+
+}
+
+.download a{
+
+    text-align: center;
+}
+
+.download .downgame {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    width: 220px;
+    /*background-color: darkblue;*/
+    background: url(../images/public-spr.png) no-repeat 0px -472px;
+}
+
+.download .login {
+    padding-top: 20px;
+    float: left;
+    width: 112px;
+    height: 95px;
+    width: 460px;
+
+}
+
+.download i {
+    display: block;
+    margin-top: 16px;
+    margin-left: 38px;
+    width: 37px;
+    height: 41px;
+
+}
+
+
+
+.download .freshman {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    background: url(../images/public-spr.png) no-repeat -220px -472px;
+    text-align: center;
+}
+
+.download .freshman i {
+    background: url("../images/public-spr.png");
+}
+
+.download p {
+    color: white;
+    font-size: 16px;
+}
+
+.download .views {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    background: url(../images/public-spr.png) no-repeat -332px -472px;
+}
+
+.download .views i {
+    background: url("../images/public-spr.png") no-repeat -45px 0px;
+}
+
+.download .events {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    background: url(../images/public-spr.png) no-repeat -444px -472px;
+}
+
+.download .events i {
+    background: url("../images/public-spr.png") no-repeat -85px 0px;
+}
+
+.download .gameifo {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    background: url(../images/public-spr.png) no-repeat -556px -472px;
+}
+
+.download .gameifo i {
+    background: url("../images/public-spr.png") no-repeat -122px 0px;
+}
+
+.download .usenter {
+    float: left;
+    display: block;
+    width: 112px;
+    height: 115px;
+    background: url(../images/public-spr.png) no-repeat -669px -472px;
+}
+
+.download .usenter i {
+    background: url("../images/public-spr.png") no-repeat -156px 0px;
+}
+
+.download .login {
+    background: url(../images/public-spr.png) no-repeat -780px -472px;}
+
+.picus{
+    width: 80px;
+    height: 80px;
+    background: url(../images/ttt.png);
+    float: left;
+    margin-left: 20px;
+}
+.login .loginfont{
+
+    float: left;
+    margin-left: 30px;
+    font-size: 11px;
+}
+.loginfont p{
+    font-size: 11px;
+}
+.loginfont p a{
+    color: #05B896;
+}
+.loginfont .p1{
+    font-size:16px;
+}
+.loginfont .p2{
+    font-size:10px;
+    margin-top: 10px;
+}
+.loginfont .p2 span{
+    color: #C1CFE8;
+}
+
+.i {
+    width: 39px;
+    height: 40px;
+    background-color:#293550;
+    padding-top:10px;
+    padding-left:15px;
+    margin: 13px;
+    float: left;
+
+
+}
+
+
+.download .i i {
+    margin: 0;
+    padding: 0;
+    width: 33px;
+    height: 33px;
+    display: block;
+    background-color: saddlebrown;
+    background: url(../images/public-spr.png) no-repeat -169px -42px;
+}
+.gamever span{
+    font-size: 16px;
+    color: #05B896;
+}
+.gamever{
+    position: absolute;
+    height: 22px;
+    right: 0;
+    bottom: 135px;
+}
+.gamever p{
+    line-height: 22px;
+    float: left;
+}
+.gamever a{
+    float: left;
+    display: block;
+    width: 78px;
+    height: 22px;
+    border: 2px solid #05B896;
+    background-color: #000000;
+    opacity: 0.5;
+    line-height: 22px;
+    text-align: center;
+    color: #05B896;
+}
+.gamever a:hover{
+    opacity: 1;
+}
+
+
+/*header-banner部分end*/
+/*jq用到的类*/
+
+/*header部分end*/
+/*遮罩部分*/
+.mask1{
+    z-index: 8;
+    top:0px;
+    left:0px;
+    position: absolute;
+    width: 100%;
+    height: 2550px;
+    background-color: rgba(230, 245, 255,0.5);
+    display: none;
+}
+.loginbar{
+    display: none;
+    z-index: 10;
+    top:0;
+    left: 50%;
+    position: absolute;
+    width: 619px;
+    height: 364px;
+    margin-left:-310px;
+    margin-top: 135px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+#removebox{
+    width: 619px;
+    height: 40px;
+    /*background-color: deeppink;*/
+    position: absolute;
+    top:0px;
+    left: 0;
+}
+#removebox:hover{
+    cursor: move;
+}
+.closebaner{
+    width: 47px;
+    height: 18px;
+    border-left:#DADADA;
+    background: url(../images/icon_3_tiny.png) -221px -126px no-repeat;
+    float: right;
+}
+.closebaner:hover{
+    cursor: pointer;
+}
+.fontqiuck{
+    padding-top: 50px;
+    height: 70px;
+    margin-top: 18px;
+    text-align: center;
+    font-size:18px;
+    color: #333333;
+}
+.dirp{
+    margin-bottom: 18px;
+}
+#tip{
+    display: block;
+    margin-top: 18px;
+}
+.fontqiuck a{
+    color: #3481CF;
+}
+.quickcontent{
+    text-align: center;
+    margin-top: 23px;
+    position: relative;
+}
+#clearContent{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background:url(../images/icon_3_tiny.png) no-repeat -117px -161px;
+    position: absolute;
+    top:8px;
+    left:420px;
+}
+#clearPwd{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background:url(../images/icon_3_tiny.png) no-repeat -117px -161px;
+    position: absolute;
+    top:65px;
+    left:420px;
+}
+#clearContent a,#clearPwd a{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+#username,#pwd,#sub{
+    margin: 15px auto 0px auto;
+    display: block;
+    width: 257px;
+    height: 38px;
+    border: 1px solid #D6D6D6;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+#username,#pwd{
+    padding-left: 11px;
+}
+
+#sub{
+    width: 270px;
+    height: 40px;
+    background-color: #86CE2F;
+}
+.quickabox{
+    margin-top: 30px;
+    float: right;
+
+}
+
+.quicka{
+    display:inline-block;
+    width: 77px;
+    height: 12px;
+    border-right:1px solid #CDBFCD;
+    font-size: 13px;
+    text-align: center;
+
+}
+.quicka:hover{
+    text-decoration:underline;
+    color: #4ca6cd;
+}
+.noborderringht{
+    border-right:0px solid #CDBFCD;
+
+
+}
+/*=============================================第一部分样式 - 结束=====================================*/
+
+
+
+/*=============================================第二部分样式 - 开始=====================================*/
+/*主体部分开始*/
+.mainer{
+    /*height: 370px;*/
+    /*background: pink;*/
+    margin-top: 28px;
+}
+/*左边的图片开始*/
+.left-mainer{
+    /*height: 370px;*/
+    width: 780px;
+    /*background: yellowgreen;*/
+}
+.left-mainer .pictures{
+    /*height: 330px;*/
+    width: 780px;
+    /*background: coral;*/
+    overflow: hidden;
+    position: relative;
+}
+.left-mainer .pictures .list{
+    width: 6000px;
+    position: relative;
+    height: 330px;
+}
+.left-mainer .pictures .list li{
+    float: left;
+}
+/*左边的下部文字部分*/
+.left-mainer .text .fight li{
+    font: 400 14px/40px "microsoft yahei";
+    float: left;
+    width: 156px;
+    height: 40px;
+    text-align: center;
+    background: #EFEFEF;
+}
+
+.left-mainer .text .fight .current{
+   background:#00a684;
+    color: #fff;
+}
+/*左边的图片结束*/
+.right-mainer{
+    /*width: 400px;*/
+    height: 370px;
+    /*background: burlywood;*/
+}
+/*右边公部分告开始*/
+/*顶部部分*/
+.right-mainer .top-nav{
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 400px;
+    /*background: orange;*/
+}
+.right-mainer .top-nav ul li{
+    float: left;
+    width: 90px;
+    font-size:18px;
+    background: #fff;
+    border-bottom: 4px solid #EBECEC;
+}
+.right-mainer .top-nav .current{
+    color: #00ab88;
+    font-weight: bold;
+    border-bottom: 4px solid #00ab88;
+}
+.right-mainer .top-nav a{
+    display: inline-block;
+    width: 40px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 18px;
+    background: #fff;
+    border-bottom: 4px solid #EBECEC;
+}
+/*中间部分*/
+.right-mainer .middle-news{
+    width: 400px;
+    height: 290px;
+    /*background: darkcyan;*/
+}
+.news-content .news-top{
+    padding: 12px 0 0;
+}
+.news-content .news-top .first{
+    height: 46px;
+    margin-bottom: 3px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#00ab88;
+    overflow: hidden;
+}
+.news-content .news-top li{
+    height: 26px;
+    line-height: 26px;
+    padding: 3px 0;
+    font-size: 14px;
+}
+.news-content .news-top li a:hover{
+    color:#00ab88;
+}
+.news-content .news-top i{
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 26px;
+    background: #EBEBEB;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.news-content .news-top s{
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 26px;
+    line-height: 26px;
+    text-align: right;
+    color: #a4a4a4;
+    float: right;
+}
+
+
+/*下面部分*/
+.right-mainer .bottom-advice{
+    height: 40px;
+    line-height: 40px;
+    background: #EFEFEF;
+    text-align: center;
+    margin-top: 4px;
+    font-family: microsoft yahei;
+}
+
+/*右边公部分告结束*/
+/*主体部分结束、*/
+
+
+
+
+/*注册表单开始、*/
+.form{
+    height: 109px;
+    background: #87C2FC;
+}
+.form .bg{
+    height: 109px;
+    background: url("../images/shen-bg.png") center top no-repeat;
+}
+.middle{
+    width: 954px;
+    margin: 0 auto;
+}
+.form-header{
+    position: relative;
+    height: 109px;
+    color: #fff;
+    /*background: pink;*/
+}
+.form-header i{
+    position: absolute;
+    bottom: 25px;
+    right: 11px;
+}
+.form-header p{
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
+
+.form-content{
+    height: 940px;
+    border: 1px solid #B6BBC0;
+    border-top: 0px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.form-content .left-content{
+    position: relative;
+
+}
+.form-content .top-left-content{
+    position: absolute;
+    top: -55px;
+    margin-left: 1px;
+    background: url("../images/shen_2.png") no-repeat;
+    height: 260px;
+    width: 220px;
+    color: #fff;
+    z-index: 3;
+}
+.top-left-content i{
+    height: 23px;
+    width: 24px;
+    background: url("../images/shen_icon_1.png") 0 -150px no-repeat ;
+    position: absolute;
+    top: 98px;
+    left: 24px;
+}
+.top-left-content p{
+    position: absolute;
+    top: 98px;
+    left: 50px;
+    font-size: 22px;
+}
+.top-left-content span{
+    position: absolute;
+    top: 126px;
+    right: 54px;
+}
+
+.form-content .center-left-content{
+    position: absolute;
+    top: 32px;
+    margin-left: 1px;
+    background: url("../images/shen_2.png") no-repeat;
+    height: 260px;
+    width: 220px;
+    color: #fff;
+    z-index: 1;
+}
+.form-content .center-left-content i{
+    height: 23px;
+    width: 24px;
+    background: url("../images/shen_icon_1.png") 0 -50px no-repeat ;
+    position: absolute;
+    top: 92px;
+    left: 24px;
+}
+.form-content .center-left-content p{
+    position: absolute;
+    top: 94px;
+    left: 50px;
+    font-size: 22px;
+}
+.form-content .center-left-content span{
+    position: absolute;
+    top: 126px;
+    left: 24px;
+}
+
+
+.form-content .bottom-left-content{
+    width: 188px;
+    height: 940px;
+    padding-left: 1px;
+    padding-right: 2px;
+    border-right: 1px solid #B6BBC0;
+    background: #E4EDF6;
+    position: relative;
+}
+.form-content .bottom-left-content i{
+    height: 180px;
+    width: 180px;
+    background: url("../images/shen_icon_1.png") 0 -252px no-repeat ;
+    position: absolute;
+    top: 300px;
+}
+
+
+/*右边开始*/
+.right-content {
+    width: 610px;
+    height: 940px;
+    margin: 20px  50px;
+}
+.right-content .picture{
+    width: 610px;
+    height: 163px;
+    background: url("../images/shen-BannerC.jpg");
+}
+.right-content .zhuce span{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    width: 90px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-left: 2px solid #59AFE4;
+}
+.right-content .linear{
+    border-bottom: 2px solid #DDD;
+}
+.qq-form{
+    line-height: 50px;
+}
+.qq-form i{
+    display: block;
+    float: left;
+    right: 0;
+    width: 60px;
+    text-align: right;
+}
+.qq-form input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #A7B6C4;
+}
+.qq-form input[type=radio]{
+    width: 20px;
+    margin: 10px;
+}
+/*=============================================第二部分样式 - 结束=====================================*/
+
+
+
+/*=============================================第三部分样式 - 开始=====================================*/
+
+/**
+ * Created by liyingjie on 2016/9/1.
+ */
+/*首页中部大模块*/
+/*.mainer {*/
+/**
+ * Created by liyingjie on 2016/9/1.
+ */
+/*首页中部大模块*/
+/*.mainer {*/
+.lyjMain {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    padding-top: 28px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+/*首页左边模块*/
+.home-mod-l {
+    float: left;
+    width: 780px;
+}
+
+/*首页右边模块*/
+.home-mod-r {
+    float: right;
+    width: 400px;
+}
+
+/*轮播部分*/
+.home-mod {
+    margin-bottom: 50px;
+}
+
+
+/*视频部分*/
+.home-mod-l .hd {
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.home-mod-l .hd {
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.clearfix:after, .hd:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.contentVideo{
+    height: 360px;
+}
+.home-video-title {
+    float: left;
+}
+
+.home-title {
+    float: left;
+    font-size: 25px;
+    line-height: 40px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.icon-video {
+    background: url(../images/public-spr.png) no-repeat -40px -40px;
+}
+
+.icon-video, .icon-submit, .icon-hero, .icon-quick, .icon-match, .icon-online, .icon-activity {
+    display: inline-block;
+    vertical-align: -10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.txt-more {
+    float: right;
+    margin-top: 3px;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+    margin-left: 10px;
+    background: #efefef;
+    border: 2px solid #efefef;
+    color: #777777;
+    font-size: 14px;
+    border-radius: 25px;
+}
+
+/*视频部分,文字导航*/
+.txt-more:hover {
+    border-color: #00ab88;
+    color: #00ab88;
+    background: none;
+}
+
+.tab-nav .current {
+    color: #00ab88;
+    font-weight: bold;
+    border-bottom: 4px solid #00ab88;
+}
+
+.video-nav li {
+    width: 130px;
+}
+
+.tab-nav li {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+}
+
+.icon-submit {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    /*background-position: -567px -46px;*/
+    background: url(../images/public-spr.png) no-repeat -567px -46px;
+}
+
+.bd {
+    overflow: hidden;
+    zoom: 1;
+    display: block;
+}
+
+.tab {
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 4px solid #ebecec;
+}
+
+.tab-nav {
+    position: relative;
+    height: 36px;
+}
+
+.video-nav li {
+    width: 130px;
+}
+
+.tab-nav li {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+}
+
+.v-mod-list {
+    position: relative;
+    height: 320px;
+    overflow: hidden;
+    margin-right: -20px;
+    padding-top: 30px;
+    margin-bottom: 28px;
+}
+
+.v-mod-list li {
+    width: 180px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.v-list li {
+    float: left;
+    position: relative;
+    _display: inline;
+    overflow: hidden;
+}
+
+.video-more-link {
+    display: block;
+    background: #eaeaea;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+/*视频部分悬停效果*/
+.v-mod-list .v-link {
+    position: relative;
+    display: block;
+    width: 180px;
+    height: 100px;
+    margin-bottom: 7px;
+}
+.shadow1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 20%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.shadow2 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.v-mod-list .v-meta {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    width: 96%;
+    height: 20px;
+    color: #ddd;
+}
+/*视频上面图片时间*/
+.v-mod-list .v-meta {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    width: 96%;
+    height: 20px;
+    color: #ddd;
+}
+.v-mod-list .v-meta .v-time {
+    float: right;
+}
+
+.icon-v {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -32.5px;
+    top: 15px;
+    width: 65px;
+    height: 65px;
+    background: url(../images/bg-icon-v.png) no-repeat 0 0;
+    cursor: pointer;
+
+}
+/*英雄部分*/
+.icon-hero {
+    background: url(../images/public-spr.png) no-repeat -160px -40px;
+    /*background-position: -160px -40px;*/
+}
+#J_freeList a {
+    float: left;
+    position: relative;
+    width: 76px;
+    height: 76px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.hero-new-list a {
+    float: left;
+    position: relative;
+    width: 76px;
+    height: 165px;
+    margin-right: 5px;
+}
+.her0-free a{
+    margin-right: 5px;
+
+}
+.hero-tab li {
+    width: 133px;
+}
+
+.free-time{
+    float: right;
+}
+/*********修改2************/
+.free-list {
+    position: relative;
+}
+/*快速入口*/
+.home-quick {
+    margin-bottom: 40px;
+}
+
+.icon-quick {
+    background: url(../images/public-spr.png) no-repeat -200px -40px;
+}
+
+.home-quick-content {
+    margin-right: -8px;
+}
+
+.home-quick-content a {
+    float: left;
+    /*width: 94px;*/
+    width: 74px;
+    padding-left: 20px;
+    height: 62px;
+    /*height: 30px;*/
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background: #fefefe;
+    font-size: 14px;
+    color: #555555;
+    /*text-align: center;*/
+    box-shadow: 0 0 2px #ddd;
+}
+
+.home-quick-content i {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+/*英雄皮肤部分*/
+.hero-content {
+    height: 190px;
+    margin-bottom: 20px;
+}
+
+.free-list {
+    position: relative;
+    margin-right: -5px;
+}
+.free-list a {
+    float: left;
+    position: relative;
+    width: 76px;
+    height: 76px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.free-list .first-name {
+    position: absolute;
+    width: 66px;
+    text-align: center;
+    top: 30px;
+    left: 5px;
+    padding-top: 0;
+    line-height: 14px;
+}
+.sbg {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #029f7f;
+    background: rgba(2, 159, 127, 0.8);
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+}
+.sbg .first-name {
+    display: block;
+    padding-top: 18px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+/*=============================================第三部分样式 - 结束=====================================*/
+
+
+
+/*=============================================第四部分样式 - 开始=====================================*/
+/*LOL第四部分 S*/
+.box-l {
+    /*background: #ccc;*/
+    height: 410px;
+    margin-top: -25px;
+}
+
+/*赛事中心 S*/
+.match-center-l {
+    width: 780px;
+    height: 410px;
+    /*background: pink;*/
+}
+
+.match-title {
+    height: 64px;
+    /*background: orange;*/
+    position: relative;
+}
+
+.match-logo i {
+    position: absolute;
+    width: 29px;
+    height: 27px;
+    background: url("../images/public-spr.png") -85px -48px;
+    top: 18px;
+    left: 4px;
+}
+
+.match-logo h2 {
+    line-height: 64px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #555;
+    margin-left: 45px;
+    font-family: Microsoft YaHei, Tahoma, simsun;
+}
+
+.match-inter a {
+    margin-top: 13px;
+    display: block;
+    width: 108px;
+    height: 34px;
+    background: #EFEFEF;
+    text-align: center;
+    border-radius: 25px;
+    font: normal 12px Microsoft YaHei, Tahoma, simsun;
+    line-height: 34px;
+    font-size: 14px;
+}
+
+.match-tab {
+    height: 39px;
+    /*background: greenyellow;*/
+
+}
+
+.match-tab li {
+    float: left;
+    border-bottom: 4px solid #ccc;
+
+}
+
+.match-tab li a {
+    display: block;
+    padding: 0 25px;
+    font: normal 16px/1.6em Microsoft YaHei, Tahoma, simsun;
+    line-height: 43px;
+
+}
+
+/*.tab {*/
+/*border-bottom: 4px solid #00a986;*/
+/*display:none;*/
+/*}*/
+
+.match-content {
+    height: 305px;
+    /*background: cornflowerblue;*/
+}
+
+.picpart-zw {
+    width: 180px;
+    height: 303px;
+    /*background: deeppink;*/
+    position: relative;
+}
+
+.newspart-zw {
+    width: 580px;
+    height: 305px;
+    /*background: green;*/
+}
+
+.picpart-zw .pic-zw {
+    position: absolute;
+    top: 20px;
+    height: 225px;
+    width: 180px;
+    background: black;
+    background: url("../images/Jevent_1.jpg");
+}
+
+.picpart-zw .btn-zw {
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    width: 180px;
+    height: 40px;
+    background: url("../images/public-spr.png") -1px -346px;
+    text-align: center;
+    font: bold 14px "Microsoft YaHei";
+    line-height: 40px;
+    color: #0b4c3f;
+    cursor: pointer;
+}
+
+.newspart-zw .mt-zw {
+    width: 580px;
+    height: 97px;
+    /*background: red;*/
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.newspart-zw .mt-zw .title-zw {
+    /*position: absolute;*/
+    /*top:20px;*/
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 26px;
+    color: #00A686;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.newspart-zw .mt-zw .time-zw {
+    font: normal 14px/1.6em Microsoft YaHei, Tahoma, simsun;
+}
+
+.newspart-zw .mt-zw .place-zw {
+    font: normal 14px/1.6em Microsoft YaHei, Tahoma, simsun;
+}
+
+.newspart-zw .mt-zw .num-zw {
+    height: 30px;
+    line-height: 30px;
+    font-size: 36px;
+    color: #00a986;
+    display: block;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 5px;
+
+}
+
+.newspart-zw .mt-zw .attention-zw {
+    font: normal 14px/1.6em Microsoft YaHei, Tahoma, simsun;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.newspart-zw .mc-zw a {
+    font: normal 14px/1.6em Microsoft YaHei, Tahoma, simsun;
+    color: #000;
+    line-height: 28px;
+}
+
+.newspart-zw .mc-zw a:hover {
+    color: #00a684;
+}
+
+.newspart-zw .mc-zw p {
+    font: normal 14px/1.6em Microsoft YaHei, Tahoma, simsun;
+    color: #BEABAD;
+    margin-right: 3px;
+
+}
+
+/*配合JS的样式 S*/
+.highlight {
+    border: 2px solid #00ab88;
+    color: #00ab88;
+    margin-top: 13px;
+    display: block;
+    width: 108px;
+    height: 34px;
+    background: #EFEFEF;
+    text-align: center;
+    border-radius: 25px;
+    font: normal 12px Microsoft YaHei, Tahoma, simsun;
+    line-height: 34px;
+    font-size: 14px;
+}
+
+.match-tab .current {
+    border-bottom: 4px solid #00ab88;
+    color: #00ab88;
+    font-weight: bold;
+}
+
+/*配合JS的样式 E*/
+/*赛事中心 E*/
+
+/*活动中心 S*/
+.active-center-l {
+    width: 400px;
+    height: 410px;
+    /*background: red;*/
+    position: relative;
+}
+
+.active-title {
+    height: 63px;
+    width: 400px;
+    /*background: orange;*/
+    position: relative;
+    font-family: Microsoft YaHei, Tahoma, simsun;
+}
+
+.active-logo h3 {
+    line-height: 64px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #555;
+    margin-left: 45px;
+}
+
+.active-logo i {
+    position: absolute;
+    width: 22px;
+    height: 29px;
+    background: url("../images/public-spr.png") -248px -44px;
+    top: 15px;
+    left: 8px;
+}
+
+.active-title .active-inner {
+    margin-top: 13px;
+    display: block;
+    width: 108px;
+    height: 34px;
+    background: #EFEFEF;
+    text-align: center;
+    border-radius: 25px;
+    font: normal 12px Microsoft YaHei, Tahoma, simsun;
+    line-height: 34px;
+    font-size: 14px;
+}
+
+.active-title .active-inner:hover {
+    border: 2px solid #00A887;
+    color: #00A887;
+}
+
+.active-news-zw {
+    width: 400px;
+    height: 172px;
+    /*background: pink;*/
+    position: relative;
+}
+
+.active-news-zw .active-pic {
+    width: 145px;
+    height: 172px;
+    background: url("../images/active-center.png");
+    left: 0;
+    position: absolute;
+}
+
+.active-news-zw #maskZw {
+    width: 145px;
+    height: 172px;
+    background: #00A887;
+    opacity: 0.4;
+    left: 0;
+    position: absolute;
+    display: none;
+}
+
+.active-news-zw #maskTop {
+    width: 145px;
+    height: 172px;
+    left: 0;
+    position: absolute;
+    display: none;
+    color: white;
+    font: normal 14px Microsoft YaHei, Tahoma, simsun;
+}
+
+.active-news-zw #maskTop h5 {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #5AFEDF;
+
+}
+
+.active-news-zw #maskTop p {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.active-news-zw #maskTop span {
+    position: absolute;
+    bottom: 20px;
+    font-weight: bold;
+    left: 30px;
+}
+
+.active-news-zw .news {
+    width: 255px;
+    height: 172px;
+    /*background: blue;*/
+    right: 0;
+    position: absolute;
+}
+
+.active-news-zw .news li {
+    position: relative;
+    height: 22px;
+    padding-left: 25px;
+    margin-top: 3px;
+}
+
+/*/!*高亮显示*!/=======*/
+.active-news-zw .news .current {
+    /*position: relative;*/
+    height: 22px;
+    /*padding-left: 25px;*/
+    background: #00A887;
+    border-radius: 20px;
+    color: white;
+    width: 230px;
+}
+
+.active-news-zw .news .currentGrey {
+    position: relative;
+    height: 22px;
+    padding-left: 25px;
+    background: #ccc;
+    border-radius: 20px;
+}
+
+.active-news-zw .getZw:hover {
+    color: white;
+}
+
+.active-news-zw .news li em {
+    width: 73%;
+    overflow: hidden;
+    float: left;
+    height: 20px;
+    font: normal 14px Microsoft YaHei, Tahoma, simsun;
+}
+
+.active-news-zw .news li span {
+    float: right;
+    width: 25%;
+    text-align: center;
+    background: #00A887;
+    border-radius: 15px;
+    height: 22px;
+    font: normal 12px Microsoft YaHei, Tahoma, simsun;
+    line-height: 22px;
+    color: white;
+}
+
+.active-news-zw .news li .grey-span {
+    float: right;
+    width: 25%;
+    text-align: center;
+    background: #ccc;
+    border-radius: 15px;
+    height: 22px;
+    font: normal 12px Microsoft YaHei, Tahoma, simsun;
+    line-height: 22px;
+    color: beige;
+}
+
+.active-qt {
+    position: absolute;
+    bottom: 0;
+}
+
+/*活动中心 E*/
+/*LOL第四部分 E*/
+/*=============================================第四部分样式 - 结束=====================================*/
+
+
+
+/*=============================================第五部分样式 - 开始=====================================*/
+/*============客服专区serve部分start===============*/
+
+.serve {
+    margin-top: 69px;
+    height: 337px;
+    background-color: #F7F8F8;
+    font-family: Microsoft Yahei;
+}
+.ser_top_l {
+    height: 34px;
+    width: 780px;
+    margin-bottom: 18px;
+}
+.ser_top_l h2{
+    float: left;
+    font-family: microsoft yahei;
+    font-size: 25px;
+    line-height: 34px;
+    color: #555555;
+    font-weight: bold;
+}
+
+.qqOnlineServe a {
+    display: inline-block;
+    font-size: 24px;
+    padding: 0 3px;
+}
+
+/*客服专区图标*/
+.ser_call {
+    float: left;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: url("../images/public-spr.png") -644px -45px no-repeat ;
+    vertical-align: middle;
+
+}
+.ser_btn {
+    /*float: right;*/
+    width: 103px;
+    height: 34px;
+    line-height: 34px;
+    background-color:#EFEFEF ;
+    border-radius: 17px;
+    color: #777777;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    cursor: pointer;
+}
+.ser_btn:hover{
+    color: #36AB87;
+    line-height: 30px;
+    border: 2px solid  #36AB87;
+}
+
+
+.ser_tab {
+    height: 36px;
+    width: 780px;
+    border-bottom: 4px solid #ebecec;
+}
+.ser_tab_left li{
+    float: left;
+    height: 36px;
+    width: 130px;
+    line-height: 36px;
+    overflow: hidden;
+    cursor: pointer;
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+}
+/*鼠标经过，当前样式*/
+.ser_tab_left li.current{
+    color: #36AB87;
+    font-weight: bold;
+    border-bottom: 4px solid #36AB87;
+}
+.ser_tab_right a {
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.ser_tab_right a:hover{
+    color: #36AB87;
+}
+/*tab切换内容区ul*/
+.ser_tab_content {
+    display: inline-block;
+    width: 780px;
+    height: 155px;
+    /*background-color: red;*/
+    padding: 20px 0;
+}
+
+.ser_tab_content .ser_n1_inner li{
+    display: inline-block;
+    width: 355px;
+    float: left;
+    overflow: hidden;
+}
+.ser_n1_inner li a {
+    font: normal 14px mrosofit yahei;
+    line-height: 24px;
+    font-family: mrosofit yahei;
+}
+/*临时 隐藏*/
+#ser_tab_content li.current{
+    display: none;
+}
+/*===============客服专区serve部分end====================*/
+
+/*=============================================第五部分样式 - 结束=====================================*/

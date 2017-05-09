@@ -1,0 +1,1 @@
+function delay_script(A){var B=document.createElement("script"),C="src",D="text/javascript";B.setAttribute(C,A);B.setAttribute("type",D);document.body.appendChild(B);return B}delay_script("http://ossweb-img.qq.com/images/js/eas/eas.js");delay_script("http://dr.game.qq.com/dr.php");/*  |xGv00|ae3eed361ca99968276c2c59e748d11f */
